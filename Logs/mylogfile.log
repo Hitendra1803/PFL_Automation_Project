@@ -316,3 +316,9 @@
 2023-05-19 20:13:21 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
 2023-05-19 20:13:23 INFO  Log:26 - User clicked on Signup button 
 2023-05-19 20:13:23 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-19 20:34:06 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
+2023-05-19 20:34:06 INFO  Log:26 - User clicked on Signup button 
+2023-05-19 20:34:06 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-19 20:38:17 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
+2023-05-19 20:38:17 INFO  Log:26 - User clicked on Signup button 
+2023-05-19 20:38:17 INFO  Log:26 - Warning msg displayed is - Please enter the email. 

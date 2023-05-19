@@ -28,7 +28,7 @@ public class HomePage extends BaseClass{
 	@FindBy(css = ".bothBtn")
 	WebElement loginSignupBtn;
 	
-	@FindBy(xpath="(//button[normalize-space()='Signup'])[1]")
+	@FindBy(xpath="//*[contains(text(), 'Signup')]")
 	WebElement signupBtn;
 	
 	@FindBy(xpath="//div[@class='bothBtn']/button[1]")
