@@ -11,6 +11,7 @@ import java.time.Duration;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
@@ -28,6 +29,7 @@ public class BaseClass {
 
 	// Declare ThreadLocal Driver
 	public static WebDriver driver;
+	
 
 	//loadConfig method is to load the configuration
 	@BeforeSuite
@@ -64,6 +66,10 @@ public class BaseClass {
 			WebDriverManager.iedriver().setup();
 			driver = new InternetExplorerDriver();
 		}
+		else if(browserName.equalsIgnoreCase("Safari")) {
+			WebDriverManager.safaridriver().setup();
+			driver = new SafariDriver();
+		}
 		//Maximize the screen
 		driver.manage().window().maximize();
 		
@@ -76,7 +82,7 @@ public class BaseClass {
 		//PageLoad TimeOuts
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds((Integer.parseInt(prop.getProperty("pageLoadTimeOut")))));
 		//Launching the URL
-		driver.get(prop.getProperty("url"));
+		driver.get(prop.getProperty("uatUrl"));
 		
 		//Implicit TimeOuts
 				Thread.sleep(5000);

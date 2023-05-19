@@ -1,0 +1,318 @@
+2023-05-18 17:48:08 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
+2023-05-18 17:48:08 INFO  Log:26 - User clicked on Signup button 
+2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Please enter the first name. 
+2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Please enter the last name. 
+2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Please enter the country code 
+2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Please enter the password 
+2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Minimum 8 Characters 
+2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Atleast 1 Uppercase 
+2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Atleast 1 Number 
+2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Atleast 1 lowercase letter 
+2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Atleast 1 Special character 
+2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Please enter the confirm passwords 
+2023-05-18 17:48:08 INFO  Log:26 - User click on signup button without details 
+2023-05-18 17:48:08 INFO  Log:26 - User is not able to proceed without details 
+2023-05-18 17:48:08 INFO  Log:19 - =====================================signupWithoutDetails TEST END========================================= 
+2023-05-18 17:48:15 INFO  Log:15 - =====================================verifySignupWithUsedMobileNoEmail TEST START========================================= 
+2023-05-18 17:48:15 INFO  Log:26 - User click on Signup button on Home Page 
+2023-05-18 17:48:16 INFO  Log:26 - Warning msg displayed is - Phone number already register, Please login to continue 
+2023-05-18 17:48:16 INFO  Log:26 - User entered all the details with used mobile number and email 
+2023-05-18 17:48:16 INFO  Log:26 - User is not able to signup with used Email and mobile number 
+2023-05-18 17:48:16 INFO  Log:19 - =====================================verifySignupWithUsedMobileNoEmail TEST END========================================= 
+2023-05-18 17:48:23 INFO  Log:15 - =====================================verifyLoginWithInvalidEmail TEST START========================================= 
+2023-05-18 17:48:23 INFO  Log:26 - User click on login button on Home Page 
+2023-05-18 17:48:23 INFO  Log:26 - User clicked on Login button with Invalid Email 
+2023-05-18 17:48:23 INFO  Log:26 - Warning msg displayed is - Please signup to login. 
+2023-05-18 17:48:23 INFO  Log:26 - User is not able to login with Invalid Email 
+2023-05-18 17:48:23 INFO  Log:19 - =====================================verifyLoginWithInvalidEmail TEST END========================================= 
+2023-05-18 17:48:30 INFO  Log:15 - =====================================verifyLoginWithInvalidPass TEST START========================================= 
+2023-05-18 17:48:30 INFO  Log:26 - User click on login button on Home Page 
+2023-05-18 17:48:30 INFO  Log:26 - User clicked on Login button with Invalid Password 
+2023-05-18 17:48:31 INFO  Log:26 - Warning msg displayed is - Invalid credential. 
+2023-05-18 17:48:31 INFO  Log:26 - User is not able to login with Invalid Password 
+2023-05-18 17:48:31 INFO  Log:19 - =====================================verifyLoginWithInvalidPass TEST END========================================= 
+2023-05-18 17:48:37 INFO  Log:15 - =====================================verifyLoginWithoutEmail TEST START========================================= 
+2023-05-18 17:48:38 INFO  Log:26 - User click on login button on Home Page 
+2023-05-18 17:48:38 INFO  Log:26 - User clicked on Login button without email 
+2023-05-18 17:48:38 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-18 17:48:38 INFO  Log:26 - User is not able to login without Email 
+2023-05-18 17:48:38 INFO  Log:19 - =====================================verifyLoginWithoutEmail TEST END========================================= 
+2023-05-18 17:48:45 INFO  Log:15 - =====================================verifyLoginWithoutEmailPass TEST START========================================= 
+2023-05-18 17:48:45 INFO  Log:26 - User click on login button on Home Page 
+2023-05-18 17:48:45 INFO  Log:26 - User clicked on Login button without Email & Password 
+2023-05-18 17:48:45 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-18 17:48:45 INFO  Log:26 - User is not able to login without Email & Password 
+2023-05-18 17:48:45 INFO  Log:19 - =====================================verifyLoginWithoutEmailPass TEST END========================================= 
+2023-05-18 17:48:52 INFO  Log:15 - =====================================verifyLoginWithoutPass TEST START========================================= 
+2023-05-18 17:48:52 INFO  Log:26 - User click on login button on Home Page 
+2023-05-18 17:48:52 INFO  Log:26 - User clicked on Login button without Password 
+2023-05-18 17:48:52 INFO  Log:26 - Warning msg displayed is - Please enter credential. 
+2023-05-18 17:48:52 INFO  Log:26 - User is not able to login without email 
+2023-05-18 17:48:52 INFO  Log:19 - =====================================verifyLoginWithoutEmail TEST END========================================= 
+2023-05-18 17:59:45 INFO  Log:15 - =====================================verifySignupWithoutCheckingCheckbox TEST START========================================= 
+2023-05-18 17:59:45 INFO  Log:26 - User click on Signup button on Home Page 
+2023-05-18 18:53:51 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
+2023-05-18 18:53:51 INFO  Log:26 - User clicked on Signup button 
+2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Please enter the first name. 
+2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Please enter the last name. 
+2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Please enter the country code 
+2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Please enter the password 
+2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Minimum 8 Characters 
+2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Atleast 1 Uppercase 
+2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Atleast 1 Number 
+2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Atleast 1 lowercase letter 
+2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Atleast 1 Special character 
+2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Please enter the confirm passwords 
+2023-05-18 18:53:51 INFO  Log:26 - User click on signup button without details 
+2023-05-18 18:53:51 INFO  Log:26 - User is not able to proceed without details 
+2023-05-18 18:53:51 INFO  Log:19 - =====================================signupWithoutDetails TEST END========================================= 
+2023-05-18 18:53:58 INFO  Log:15 - =====================================verifySignupWithUsedMobileNoEmail TEST START========================================= 
+2023-05-18 18:53:58 INFO  Log:26 - User click on Signup button on Home Page 
+2023-05-18 18:53:59 INFO  Log:26 - Warning msg displayed is - Phone number already register, Please login to continue 
+2023-05-18 18:53:59 INFO  Log:26 - User entered all the details with used mobile number and email 
+2023-05-18 18:53:59 INFO  Log:26 - User is not able to signup with used Email and mobile number 
+2023-05-18 18:53:59 INFO  Log:19 - =====================================verifySignupWithUsedMobileNoEmail TEST END========================================= 
+2023-05-18 18:54:06 INFO  Log:15 - =====================================verifySignupWithoutCheckingCheckbox TEST START========================================= 
+2023-05-18 18:54:06 INFO  Log:26 - User click on Signup button on Home Page 
+2023-05-18 18:54:35 INFO  Log:15 - =====================================verifyLoginWithInvalidEmail TEST START========================================= 
+2023-05-18 18:54:35 INFO  Log:26 - User click on login button on Home Page 
+2023-05-18 18:54:35 INFO  Log:26 - User clicked on Login button with Invalid Email 
+2023-05-18 18:54:35 INFO  Log:26 - Warning msg displayed is - Please signup to login. 
+2023-05-18 18:54:35 INFO  Log:26 - User is not able to login with Invalid Email 
+2023-05-18 18:54:35 INFO  Log:19 - =====================================verifyLoginWithInvalidEmail TEST END========================================= 
+2023-05-18 18:54:42 INFO  Log:15 - =====================================verifyLoginWithInvalidPass TEST START========================================= 
+2023-05-18 18:54:43 INFO  Log:26 - User click on login button on Home Page 
+2023-05-18 18:54:43 INFO  Log:26 - User clicked on Login button with Invalid Password 
+2023-05-18 18:54:43 INFO  Log:26 - Warning msg displayed is - Invalid credential. 
+2023-05-18 18:54:43 INFO  Log:26 - User is not able to login with Invalid Password 
+2023-05-18 18:54:43 INFO  Log:19 - =====================================verifyLoginWithInvalidPass TEST END========================================= 
+2023-05-18 18:54:50 INFO  Log:15 - =====================================verifyLoginWithoutEmail TEST START========================================= 
+2023-05-18 18:54:50 INFO  Log:26 - User click on login button on Home Page 
+2023-05-18 18:54:50 INFO  Log:26 - User clicked on Login button without email 
+2023-05-18 18:54:50 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-18 18:54:50 INFO  Log:26 - User is not able to login without Email 
+2023-05-18 18:54:50 INFO  Log:19 - =====================================verifyLoginWithoutEmail TEST END========================================= 
+2023-05-18 18:54:57 INFO  Log:15 - =====================================verifyLoginWithoutEmailPass TEST START========================================= 
+2023-05-18 18:54:57 INFO  Log:26 - User click on login button on Home Page 
+2023-05-18 18:54:57 INFO  Log:26 - User clicked on Login button without Email & Password 
+2023-05-18 18:54:57 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-18 18:54:57 INFO  Log:26 - User is not able to login without Email & Password 
+2023-05-18 18:54:57 INFO  Log:19 - =====================================verifyLoginWithoutEmailPass TEST END========================================= 
+2023-05-18 18:55:04 INFO  Log:15 - =====================================verifyLoginWithoutPass TEST START========================================= 
+2023-05-18 18:55:04 INFO  Log:26 - User click on login button on Home Page 
+2023-05-18 18:55:04 INFO  Log:26 - User clicked on Login button without Password 
+2023-05-18 18:55:04 INFO  Log:26 - Warning msg displayed is - Please enter credential. 
+2023-05-18 18:55:04 INFO  Log:26 - User is not able to login without email 
+2023-05-18 18:55:04 INFO  Log:19 - =====================================verifyLoginWithoutEmail TEST END========================================= 
+2023-05-18 20:51:33 INFO  Log:15 - =====================================verifySignupWithWrongOTP TEST START========================================= 
+2023-05-18 20:51:33 INFO  Log:26 - User clicked on Signup button 
+2023-05-18 20:51:33 INFO  Log:26 - User entered all the valid details and Submit 
+2023-05-18 20:55:32 INFO  Log:15 - =====================================verifySignupWithWrongOTP TEST START========================================= 
+2023-05-18 20:55:33 INFO  Log:26 - User clicked on Signup button 
+2023-05-18 20:55:33 INFO  Log:26 - User entered all the valid details and Submit 
+2023-05-18 20:58:54 INFO  Log:15 - =====================================verifySignupWithoutOTP TEST START========================================= 
+2023-05-18 20:58:54 INFO  Log:26 - User clicked on Signup button 
+2023-05-18 20:58:55 INFO  Log:26 - User entered all the valid details and Submit 
+2023-05-18 21:00:14 INFO  Log:15 - =====================================verifySignupWithoutOTP TEST START========================================= 
+2023-05-18 21:00:14 INFO  Log:26 - User clicked on Signup button 
+2023-05-18 21:00:15 INFO  Log:26 - User entered all the valid details and Submit 
+2023-05-18 21:00:16 INFO  Log:26 - Warning msg displayed is - Please enter OTP. 
+2023-05-18 21:00:16 INFO  Log:26 - User clicked on Submit button without OTP 
+2023-05-18 21:00:16 INFO  Log:26 - User not able to submit the blank OPT 
+2023-05-18 21:00:16 INFO  Log:19 - =====================================verifySignupWithoutOTP TEST END========================================= 
+2023-05-18 21:03:36 INFO  Log:15 - =====================================verifySignupWithoutOTP TEST START========================================= 
+2023-05-18 21:03:37 INFO  Log:26 - User clicked on Signup button 
+2023-05-18 21:03:37 INFO  Log:26 - User entered all the valid details and Submit 
+2023-05-18 21:03:38 INFO  Log:26 - Warning msg displayed is - Please enter OTP. 
+2023-05-18 21:03:38 INFO  Log:26 - User clicked on Submit button without OTP 
+2023-05-18 21:03:38 INFO  Log:26 - User not able to submit the blank OPT 
+2023-05-18 21:03:38 INFO  Log:19 - =====================================verifySignupWithoutOTP TEST END========================================= 
+2023-05-18 21:14:36 INFO  Log:15 - =====================================getCollectedTicketsInfo TEST START========================================= 
+2023-05-18 21:14:36 INFO  Log:26 - User clicked on the Login button 
+2023-05-18 21:14:36 INFO  Log:26 - User logged into the Application 
+2023-05-18 21:14:37 INFO  Log:26 - User came on the Profile Page 
+2023-05-18 21:14:37 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-18 21:14:37 INFO  Log:26 - You have 4 Tickets 
+2023-05-18 21:14:37 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-18 21:14:37 INFO  Log:26 - You have 3 Tickets 
+2023-05-18 21:14:37 INFO  Log:26 - User verified all the collected ticket information 
+2023-05-18 21:14:37 INFO  Log:19 - =====================================getCollectedTicketsInfo TEST END========================================= 
+2023-05-18 21:15:22 INFO  Log:15 - =====================================getCollectedTicketsInfo TEST START========================================= 
+2023-05-18 21:15:22 INFO  Log:26 - User clicked on the Login button 
+2023-05-18 21:15:23 INFO  Log:26 - User logged into the Application 
+2023-05-18 21:15:23 INFO  Log:26 - User came on the Profile Page 
+2023-05-18 21:15:24 INFO  Log:26 - Total collected cards are - 2 
+2023-05-18 21:15:24 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-18 21:15:24 INFO  Log:26 - You have 4 Tickets 
+2023-05-18 21:15:24 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-18 21:15:24 INFO  Log:26 - You have 3 Tickets 
+2023-05-18 21:15:24 INFO  Log:26 - User verified all the collected ticket information 
+2023-05-18 21:15:24 INFO  Log:19 - =====================================getCollectedTicketsInfo TEST END========================================= 
+2023-05-18 21:18:06 INFO  Log:15 - =====================================getCollectedTicketsInfo TEST START========================================= 
+2023-05-18 21:18:06 INFO  Log:26 - User clicked on the Login button 
+2023-05-18 21:18:06 INFO  Log:26 - User logged into the Application 
+2023-05-18 21:18:07 INFO  Log:26 - User came on the Profile Page 
+2023-05-18 21:18:07 INFO  Log:26 - Available collected ticket information -  
+2023-05-18 21:18:07 INFO  Log:26 - Total collected cards are - 2 
+2023-05-18 21:18:07 INFO  Log:26 - Ticket name = PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-18 21:18:07 INFO  Log:26 - No. of tickets = You have 4 Tickets 
+2023-05-18 21:18:07 INFO  Log:26 - Ticket name = PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-18 21:18:07 INFO  Log:26 - No. of tickets = You have 3 Tickets 
+2023-05-18 21:18:07 INFO  Log:26 - User verified all the collected ticket information 
+2023-05-18 21:18:07 INFO  Log:19 - =====================================getCollectedTicketsInfo TEST END========================================= 
+2023-05-18 21:24:36 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
+2023-05-18 21:24:36 INFO  Log:26 - User clicked on Signup button 
+2023-05-18 21:24:36 INFO  Log:26 - Warning msg displayed is - Please enter the first name. 
+2023-05-18 21:24:36 INFO  Log:26 - Warning msg displayed is - Please enter the last name. 
+2023-05-18 21:24:36 INFO  Log:26 - Warning msg displayed is - Please enter the country code 
+2023-05-18 21:24:36 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-18 21:24:36 INFO  Log:26 - Warning msg displayed is - Please enter the password 
+2023-05-18 21:24:36 INFO  Log:26 - Warning msg displayed is - Minimum 8 Characters 
+2023-05-18 21:24:36 INFO  Log:26 - Warning msg displayed is - Atleast 1 Uppercase 
+2023-05-18 21:24:36 INFO  Log:26 - Warning msg displayed is - Atleast 1 Number 
+2023-05-18 21:24:36 INFO  Log:26 - Warning msg displayed is - Atleast 1 lowercase letter 
+2023-05-18 21:24:37 INFO  Log:26 - Warning msg displayed is - Atleast 1 Special character 
+2023-05-18 21:24:37 INFO  Log:26 - Warning msg displayed is - Please enter the confirm passwords 
+2023-05-18 21:24:37 INFO  Log:26 - User click on signup button without details 
+2023-05-18 21:24:37 INFO  Log:26 - User is not able to proceed without details 
+2023-05-18 21:24:37 INFO  Log:19 - =====================================signupWithoutDetails TEST END========================================= 
+2023-05-18 21:24:44 INFO  Log:15 - =====================================verifySignupWithUsedMobileNoEmail TEST START========================================= 
+2023-05-18 21:24:44 INFO  Log:26 - User click on Signup button on Home Page 
+2023-05-18 21:24:44 INFO  Log:26 - Warning msg displayed is - Phone number already register, Please login to continue 
+2023-05-18 21:24:44 INFO  Log:26 - User entered all the details with used mobile number and email 
+2023-05-18 21:24:44 INFO  Log:26 - User is not able to signup with used Email and mobile number 
+2023-05-18 21:24:44 INFO  Log:19 - =====================================verifySignupWithUsedMobileNoEmail TEST END========================================= 
+2023-05-18 21:24:51 INFO  Log:15 - =====================================verifySignupWithWrongOTP TEST START========================================= 
+2023-05-18 21:24:52 INFO  Log:26 - User clicked on Signup button 
+2023-05-18 21:25:09 INFO  Log:15 - =====================================verifySignupWithoutCheckingCheckbox TEST START========================================= 
+2023-05-18 21:25:09 INFO  Log:26 - User click on Signup button on Home Page 
+2023-05-18 21:25:27 INFO  Log:15 - =====================================verifySignupWithoutOTP TEST START========================================= 
+2023-05-18 21:25:27 INFO  Log:26 - User clicked on Signup button 
+2023-05-18 21:25:28 INFO  Log:26 - User entered all the valid details and Submit 
+2023-05-18 21:25:29 INFO  Log:26 - Warning msg displayed is - Please enter OTP. 
+2023-05-18 21:25:29 INFO  Log:26 - User clicked on Submit button without OTP 
+2023-05-18 21:25:29 INFO  Log:26 - User not able to submit the blank OPT 
+2023-05-18 21:25:29 INFO  Log:19 - =====================================verifySignupWithoutOTP TEST END========================================= 
+2023-05-18 21:25:36 INFO  Log:15 - =====================================userLogin TEST START========================================= 
+2023-05-18 21:25:36 INFO  Log:26 - User clicked on Login button 
+2023-05-18 21:25:36 INFO  Log:26 - User login to the application 
+2023-05-18 21:25:37 INFO  Log:26 - User profile image and name displayed on Home Page 
+2023-05-18 21:25:37 INFO  Log:19 - =====================================userLogin TEST END========================================= 
+2023-05-18 21:25:46 INFO  Log:15 - =====================================verifyLoginWithInvalidEmail TEST START========================================= 
+2023-05-18 21:25:46 INFO  Log:26 - User click on login button on Home Page 
+2023-05-18 21:25:46 INFO  Log:26 - User clicked on Login button with Invalid Email 
+2023-05-18 21:25:46 INFO  Log:26 - Warning msg displayed is - Please signup to login. 
+2023-05-18 21:25:46 INFO  Log:26 - User is not able to login with Invalid Email 
+2023-05-18 21:25:46 INFO  Log:19 - =====================================verifyLoginWithInvalidEmail TEST END========================================= 
+2023-05-18 21:25:53 INFO  Log:15 - =====================================verifyLoginWithInvalidPass TEST START========================================= 
+2023-05-18 21:25:54 INFO  Log:26 - User click on login button on Home Page 
+2023-05-18 21:25:54 INFO  Log:26 - User clicked on Login button with Invalid Password 
+2023-05-18 21:25:54 INFO  Log:26 - Warning msg displayed is - Invalid credential. 
+2023-05-18 21:25:54 INFO  Log:26 - User is not able to login with Invalid Password 
+2023-05-18 21:25:54 INFO  Log:19 - =====================================verifyLoginWithInvalidPass TEST END========================================= 
+2023-05-18 21:26:01 INFO  Log:15 - =====================================verifyLoginWithoutEmail TEST START========================================= 
+2023-05-18 21:26:01 INFO  Log:26 - User click on login button on Home Page 
+2023-05-18 21:26:01 INFO  Log:26 - User clicked on Login button without email 
+2023-05-18 21:26:01 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-18 21:26:01 INFO  Log:26 - User is not able to login without Email 
+2023-05-18 21:26:01 INFO  Log:19 - =====================================verifyLoginWithoutEmail TEST END========================================= 
+2023-05-18 21:26:08 INFO  Log:15 - =====================================verifyLoginWithoutEmailPass TEST START========================================= 
+2023-05-18 21:26:09 INFO  Log:26 - User click on login button on Home Page 
+2023-05-18 21:26:09 INFO  Log:26 - User clicked on Login button without Email & Password 
+2023-05-18 21:26:09 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-18 21:26:09 INFO  Log:26 - User is not able to login without Email & Password 
+2023-05-18 21:26:09 INFO  Log:19 - =====================================verifyLoginWithoutEmailPass TEST END========================================= 
+2023-05-18 21:26:16 INFO  Log:15 - =====================================verifyLoginWithoutPass TEST START========================================= 
+2023-05-18 21:26:16 INFO  Log:26 - User click on login button on Home Page 
+2023-05-18 21:26:16 INFO  Log:26 - User clicked on Login button without Password 
+2023-05-18 21:26:16 INFO  Log:26 - Warning msg displayed is - Please enter credential. 
+2023-05-18 21:26:16 INFO  Log:26 - User is not able to login without email 
+2023-05-18 21:26:16 INFO  Log:19 - =====================================verifyLoginWithoutEmail TEST END========================================= 
+2023-05-18 21:26:24 INFO  Log:15 - =====================================getCollectedTicketsInfo TEST START========================================= 
+2023-05-18 21:26:24 INFO  Log:26 - User clicked on the Login button 
+2023-05-18 21:26:24 INFO  Log:26 - User logged into the Application 
+2023-05-18 21:26:25 INFO  Log:26 - User came on the Profile Page 
+2023-05-18 21:26:25 INFO  Log:26 - Available collected ticket information -  
+2023-05-18 21:26:25 INFO  Log:26 - Total collected cards are - 2 
+2023-05-18 21:26:25 INFO  Log:26 - Ticket name = PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-18 21:26:25 INFO  Log:26 - No. of tickets = You have 4 Tickets 
+2023-05-18 21:26:25 INFO  Log:26 - Ticket name = PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-18 21:26:25 INFO  Log:26 - No. of tickets = You have 3 Tickets 
+2023-05-18 21:26:25 INFO  Log:26 - User verified all the collected ticket information 
+2023-05-18 21:26:25 INFO  Log:19 - =====================================getCollectedTicketsInfo TEST END========================================= 
+2023-05-18 21:47:02 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
+2023-05-18 21:47:02 INFO  Log:26 - User clicked on Signup button 
+2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Please enter the first name. 
+2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Please enter the last name. 
+2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Please enter the country code 
+2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Please enter the password 
+2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Minimum 8 Characters 
+2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Atleast 1 Uppercase 
+2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Atleast 1 Number 
+2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Atleast 1 lowercase letter 
+2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Atleast 1 Special character 
+2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Please enter the confirm passwords 
+2023-05-18 21:47:02 INFO  Log:26 - User click on signup button without details 
+2023-05-18 21:47:02 INFO  Log:26 - User is not able to proceed without details 
+2023-05-18 21:47:02 INFO  Log:19 - =====================================signupWithoutDetails TEST END========================================= 
+2023-05-18 21:48:29 INFO  Log:15 - =====================================verifySignupWithoutCheckingCheckbox TEST START========================================= 
+2023-05-18 21:48:29 INFO  Log:26 - User click on Signup button on Home Page 
+2023-05-19 18:33:12 INFO  Log:15 - =====================================verifyLoginWithInvalidPass TEST START========================================= 
+2023-05-19 18:33:12 INFO  Log:26 - User click on login button on Home Page 
+2023-05-19 18:33:12 INFO  Log:26 - User clicked on Login button with Invalid Password 
+2023-05-19 18:33:12 INFO  Log:26 - Warning msg displayed is - Invalid credential. 
+2023-05-19 18:33:13 INFO  Log:26 - User is not able to login with Invalid Password 
+2023-05-19 18:33:13 INFO  Log:19 - =====================================verifyLoginWithInvalidPass TEST END========================================= 
+2023-05-19 19:54:13 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
+2023-05-19 19:54:13 INFO  Log:26 - User clicked on Signup button 
+2023-05-19 19:54:13 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-19 19:54:56 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
+2023-05-19 19:54:56 INFO  Log:26 - User clicked on Signup button 
+2023-05-19 19:54:56 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-19 19:55:37 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
+2023-05-19 19:55:37 INFO  Log:26 - User clicked on Signup button 
+2023-05-19 19:55:37 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-19 19:57:05 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
+2023-05-19 19:57:05 INFO  Log:26 - User clicked on Signup button 
+2023-05-19 19:57:05 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-19 19:57:35 INFO  Log:15 - =====================================verifySignupWithUsedMobileNoEmail TEST START========================================= 
+2023-05-19 19:57:35 INFO  Log:26 - User click on Signup button on Home Page 
+2023-05-19 19:59:04 INFO  Log:15 - =====================================verifySignupWithUsedMobileNoEmail TEST START========================================= 
+2023-05-19 19:59:05 INFO  Log:26 - User click on Signup button on Home Page 
+2023-05-19 20:01:41 INFO  Log:15 - =====================================verifyLoginWithInvalidPass TEST START========================================= 
+2023-05-19 20:01:41 INFO  Log:26 - User click on login button on Home Page 
+2023-05-19 20:01:41 INFO  Log:26 - User clicked on Login button with Invalid Password 
+2023-05-19 20:01:41 INFO  Log:26 - Warning msg displayed is - Invalid credential. 
+2023-05-19 20:01:41 INFO  Log:26 - User is not able to login with Invalid Password 
+2023-05-19 20:01:41 INFO  Log:19 - =====================================verifyLoginWithInvalidPass TEST END========================================= 
+2023-05-19 20:02:38 INFO  Log:15 - =====================================verifySignupWithUsedMobileNoEmail TEST START========================================= 
+2023-05-19 20:02:38 INFO  Log:26 - User click on Signup button on Home Page 
+2023-05-19 20:04:22 INFO  Log:15 - =====================================verifySignupWithUsedMobileNoEmail TEST START========================================= 
+2023-05-19 20:04:22 INFO  Log:26 - User click on Signup button on Home Page 
+2023-05-19 20:07:03 INFO  Log:15 - =====================================getCollectedTicketsInfo TEST START========================================= 
+2023-05-19 20:07:03 INFO  Log:26 - User clicked on the Login button 
+2023-05-19 20:07:03 INFO  Log:26 - User logged into the Application 
+2023-05-19 20:07:04 INFO  Log:26 - User came on the Profile Page 
+2023-05-19 20:07:04 INFO  Log:26 - Available collected ticket information -  
+2023-05-19 20:07:04 INFO  Log:26 - Total collected cards are - 2 
+2023-05-19 20:07:04 INFO  Log:26 - Ticket name = PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-19 20:07:04 INFO  Log:26 - No. of tickets = You have 4 Tickets 
+2023-05-19 20:07:04 INFO  Log:26 - Ticket name = PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-19 20:07:04 INFO  Log:26 - No. of tickets = You have 4 Tickets 
+2023-05-19 20:07:04 INFO  Log:26 - User verified all the collected ticket information 
+2023-05-19 20:07:04 INFO  Log:19 - =====================================getCollectedTicketsInfo TEST END========================================= 
+2023-05-19 20:07:35 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
+2023-05-19 20:07:35 INFO  Log:26 - User clicked on Signup button 
+2023-05-19 20:07:35 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-19 20:10:02 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
+2023-05-19 20:10:03 INFO  Log:26 - User clicked on Signup button 
+2023-05-19 20:10:03 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-19 20:10:51 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
+2023-05-19 20:10:51 INFO  Log:26 - User clicked on Signup button 
+2023-05-19 20:10:51 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-19 20:13:21 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
+2023-05-19 20:13:23 INFO  Log:26 - User clicked on Signup button 
+2023-05-19 20:13:23 INFO  Log:26 - Warning msg displayed is - Please enter the email. 

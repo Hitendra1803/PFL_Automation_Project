@@ -1,13 +1,15 @@
 package com.pfl.utilities;
 
 import org.apache.logging.log4j.*;
+import org.apache.log4j.Logger;
+
 
 public class Log {
 		
 	
 	
 	// Initialize Log4j logs
-		public static Logger Log = LogManager.getLogger(Log.class);
+		public static Logger Log = Logger.getLogger(Log.class);
 
 		public static  void startTestCase(String sTestCaseName){		  
 			 Log.info("====================================="+sTestCaseName+" TEST START=========================================");
@@ -43,11 +45,7 @@ public class Log {
 
 			}
 
-//		 public static void debug(String message) {
-//
-//		    Log.debug(message);
-//
-//			}
+
 		 
 
 

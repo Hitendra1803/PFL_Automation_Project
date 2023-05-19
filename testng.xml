@@ -3,8 +3,14 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.pfl.testCases.HomePageTest"/>
+      
+    <!--  <class name="com.pfl.testCases.HomePageTest"/>
+      <class name="com.pfl.testCases.TicketDetailsPageTest"/>
       <class name="com.pfl.base.BaseClass"/>
+      <class name="com.pfl.testCases.EndToEndTest"/>  -->
+      <class name="com.pfl.testCases.SignupTest"/>
+      <class name="com.pfl.testCases.LoginPageTest"/>
+      <class name="com.pfl.testCases.ProfilePageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
