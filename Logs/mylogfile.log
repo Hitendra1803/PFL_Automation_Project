@@ -1,324 +1,710 @@
-2023-05-18 17:48:08 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
-2023-05-18 17:48:08 INFO  Log:26 - User clicked on Signup button 
-2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Please enter the first name. 
-2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Please enter the last name. 
-2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Please enter the country code 
-2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Please enter the password 
-2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Minimum 8 Characters 
-2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Atleast 1 Uppercase 
-2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Atleast 1 Number 
-2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Atleast 1 lowercase letter 
-2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Atleast 1 Special character 
-2023-05-18 17:48:08 INFO  Log:26 - Warning msg displayed is - Please enter the confirm passwords 
-2023-05-18 17:48:08 INFO  Log:26 - User click on signup button without details 
-2023-05-18 17:48:08 INFO  Log:26 - User is not able to proceed without details 
-2023-05-18 17:48:08 INFO  Log:19 - =====================================signupWithoutDetails TEST END========================================= 
-2023-05-18 17:48:15 INFO  Log:15 - =====================================verifySignupWithUsedMobileNoEmail TEST START========================================= 
-2023-05-18 17:48:15 INFO  Log:26 - User click on Signup button on Home Page 
-2023-05-18 17:48:16 INFO  Log:26 - Warning msg displayed is - Phone number already register, Please login to continue 
-2023-05-18 17:48:16 INFO  Log:26 - User entered all the details with used mobile number and email 
-2023-05-18 17:48:16 INFO  Log:26 - User is not able to signup with used Email and mobile number 
-2023-05-18 17:48:16 INFO  Log:19 - =====================================verifySignupWithUsedMobileNoEmail TEST END========================================= 
-2023-05-18 17:48:23 INFO  Log:15 - =====================================verifyLoginWithInvalidEmail TEST START========================================= 
-2023-05-18 17:48:23 INFO  Log:26 - User click on login button on Home Page 
-2023-05-18 17:48:23 INFO  Log:26 - User clicked on Login button with Invalid Email 
-2023-05-18 17:48:23 INFO  Log:26 - Warning msg displayed is - Please signup to login. 
-2023-05-18 17:48:23 INFO  Log:26 - User is not able to login with Invalid Email 
-2023-05-18 17:48:23 INFO  Log:19 - =====================================verifyLoginWithInvalidEmail TEST END========================================= 
-2023-05-18 17:48:30 INFO  Log:15 - =====================================verifyLoginWithInvalidPass TEST START========================================= 
-2023-05-18 17:48:30 INFO  Log:26 - User click on login button on Home Page 
-2023-05-18 17:48:30 INFO  Log:26 - User clicked on Login button with Invalid Password 
-2023-05-18 17:48:31 INFO  Log:26 - Warning msg displayed is - Invalid credential. 
-2023-05-18 17:48:31 INFO  Log:26 - User is not able to login with Invalid Password 
-2023-05-18 17:48:31 INFO  Log:19 - =====================================verifyLoginWithInvalidPass TEST END========================================= 
-2023-05-18 17:48:37 INFO  Log:15 - =====================================verifyLoginWithoutEmail TEST START========================================= 
-2023-05-18 17:48:38 INFO  Log:26 - User click on login button on Home Page 
-2023-05-18 17:48:38 INFO  Log:26 - User clicked on Login button without email 
-2023-05-18 17:48:38 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-18 17:48:38 INFO  Log:26 - User is not able to login without Email 
-2023-05-18 17:48:38 INFO  Log:19 - =====================================verifyLoginWithoutEmail TEST END========================================= 
-2023-05-18 17:48:45 INFO  Log:15 - =====================================verifyLoginWithoutEmailPass TEST START========================================= 
-2023-05-18 17:48:45 INFO  Log:26 - User click on login button on Home Page 
-2023-05-18 17:48:45 INFO  Log:26 - User clicked on Login button without Email & Password 
-2023-05-18 17:48:45 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-18 17:48:45 INFO  Log:26 - User is not able to login without Email & Password 
-2023-05-18 17:48:45 INFO  Log:19 - =====================================verifyLoginWithoutEmailPass TEST END========================================= 
-2023-05-18 17:48:52 INFO  Log:15 - =====================================verifyLoginWithoutPass TEST START========================================= 
-2023-05-18 17:48:52 INFO  Log:26 - User click on login button on Home Page 
-2023-05-18 17:48:52 INFO  Log:26 - User clicked on Login button without Password 
-2023-05-18 17:48:52 INFO  Log:26 - Warning msg displayed is - Please enter credential. 
-2023-05-18 17:48:52 INFO  Log:26 - User is not able to login without email 
-2023-05-18 17:48:52 INFO  Log:19 - =====================================verifyLoginWithoutEmail TEST END========================================= 
-2023-05-18 17:59:45 INFO  Log:15 - =====================================verifySignupWithoutCheckingCheckbox TEST START========================================= 
-2023-05-18 17:59:45 INFO  Log:26 - User click on Signup button on Home Page 
-2023-05-18 18:53:51 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
-2023-05-18 18:53:51 INFO  Log:26 - User clicked on Signup button 
-2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Please enter the first name. 
-2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Please enter the last name. 
-2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Please enter the country code 
-2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Please enter the password 
-2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Minimum 8 Characters 
-2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Atleast 1 Uppercase 
-2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Atleast 1 Number 
-2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Atleast 1 lowercase letter 
-2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Atleast 1 Special character 
-2023-05-18 18:53:51 INFO  Log:26 - Warning msg displayed is - Please enter the confirm passwords 
-2023-05-18 18:53:51 INFO  Log:26 - User click on signup button without details 
-2023-05-18 18:53:51 INFO  Log:26 - User is not able to proceed without details 
-2023-05-18 18:53:51 INFO  Log:19 - =====================================signupWithoutDetails TEST END========================================= 
-2023-05-18 18:53:58 INFO  Log:15 - =====================================verifySignupWithUsedMobileNoEmail TEST START========================================= 
-2023-05-18 18:53:58 INFO  Log:26 - User click on Signup button on Home Page 
-2023-05-18 18:53:59 INFO  Log:26 - Warning msg displayed is - Phone number already register, Please login to continue 
-2023-05-18 18:53:59 INFO  Log:26 - User entered all the details with used mobile number and email 
-2023-05-18 18:53:59 INFO  Log:26 - User is not able to signup with used Email and mobile number 
-2023-05-18 18:53:59 INFO  Log:19 - =====================================verifySignupWithUsedMobileNoEmail TEST END========================================= 
-2023-05-18 18:54:06 INFO  Log:15 - =====================================verifySignupWithoutCheckingCheckbox TEST START========================================= 
-2023-05-18 18:54:06 INFO  Log:26 - User click on Signup button on Home Page 
-2023-05-18 18:54:35 INFO  Log:15 - =====================================verifyLoginWithInvalidEmail TEST START========================================= 
-2023-05-18 18:54:35 INFO  Log:26 - User click on login button on Home Page 
-2023-05-18 18:54:35 INFO  Log:26 - User clicked on Login button with Invalid Email 
-2023-05-18 18:54:35 INFO  Log:26 - Warning msg displayed is - Please signup to login. 
-2023-05-18 18:54:35 INFO  Log:26 - User is not able to login with Invalid Email 
-2023-05-18 18:54:35 INFO  Log:19 - =====================================verifyLoginWithInvalidEmail TEST END========================================= 
-2023-05-18 18:54:42 INFO  Log:15 - =====================================verifyLoginWithInvalidPass TEST START========================================= 
-2023-05-18 18:54:43 INFO  Log:26 - User click on login button on Home Page 
-2023-05-18 18:54:43 INFO  Log:26 - User clicked on Login button with Invalid Password 
-2023-05-18 18:54:43 INFO  Log:26 - Warning msg displayed is - Invalid credential. 
-2023-05-18 18:54:43 INFO  Log:26 - User is not able to login with Invalid Password 
-2023-05-18 18:54:43 INFO  Log:19 - =====================================verifyLoginWithInvalidPass TEST END========================================= 
-2023-05-18 18:54:50 INFO  Log:15 - =====================================verifyLoginWithoutEmail TEST START========================================= 
-2023-05-18 18:54:50 INFO  Log:26 - User click on login button on Home Page 
-2023-05-18 18:54:50 INFO  Log:26 - User clicked on Login button without email 
-2023-05-18 18:54:50 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-18 18:54:50 INFO  Log:26 - User is not able to login without Email 
-2023-05-18 18:54:50 INFO  Log:19 - =====================================verifyLoginWithoutEmail TEST END========================================= 
-2023-05-18 18:54:57 INFO  Log:15 - =====================================verifyLoginWithoutEmailPass TEST START========================================= 
-2023-05-18 18:54:57 INFO  Log:26 - User click on login button on Home Page 
-2023-05-18 18:54:57 INFO  Log:26 - User clicked on Login button without Email & Password 
-2023-05-18 18:54:57 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-18 18:54:57 INFO  Log:26 - User is not able to login without Email & Password 
-2023-05-18 18:54:57 INFO  Log:19 - =====================================verifyLoginWithoutEmailPass TEST END========================================= 
-2023-05-18 18:55:04 INFO  Log:15 - =====================================verifyLoginWithoutPass TEST START========================================= 
-2023-05-18 18:55:04 INFO  Log:26 - User click on login button on Home Page 
-2023-05-18 18:55:04 INFO  Log:26 - User clicked on Login button without Password 
-2023-05-18 18:55:04 INFO  Log:26 - Warning msg displayed is - Please enter credential. 
-2023-05-18 18:55:04 INFO  Log:26 - User is not able to login without email 
-2023-05-18 18:55:04 INFO  Log:19 - =====================================verifyLoginWithoutEmail TEST END========================================= 
-2023-05-18 20:51:33 INFO  Log:15 - =====================================verifySignupWithWrongOTP TEST START========================================= 
-2023-05-18 20:51:33 INFO  Log:26 - User clicked on Signup button 
-2023-05-18 20:51:33 INFO  Log:26 - User entered all the valid details and Submit 
-2023-05-18 20:55:32 INFO  Log:15 - =====================================verifySignupWithWrongOTP TEST START========================================= 
-2023-05-18 20:55:33 INFO  Log:26 - User clicked on Signup button 
-2023-05-18 20:55:33 INFO  Log:26 - User entered all the valid details and Submit 
-2023-05-18 20:58:54 INFO  Log:15 - =====================================verifySignupWithoutOTP TEST START========================================= 
-2023-05-18 20:58:54 INFO  Log:26 - User clicked on Signup button 
-2023-05-18 20:58:55 INFO  Log:26 - User entered all the valid details and Submit 
-2023-05-18 21:00:14 INFO  Log:15 - =====================================verifySignupWithoutOTP TEST START========================================= 
-2023-05-18 21:00:14 INFO  Log:26 - User clicked on Signup button 
-2023-05-18 21:00:15 INFO  Log:26 - User entered all the valid details and Submit 
-2023-05-18 21:00:16 INFO  Log:26 - Warning msg displayed is - Please enter OTP. 
-2023-05-18 21:00:16 INFO  Log:26 - User clicked on Submit button without OTP 
-2023-05-18 21:00:16 INFO  Log:26 - User not able to submit the blank OPT 
-2023-05-18 21:00:16 INFO  Log:19 - =====================================verifySignupWithoutOTP TEST END========================================= 
-2023-05-18 21:03:36 INFO  Log:15 - =====================================verifySignupWithoutOTP TEST START========================================= 
-2023-05-18 21:03:37 INFO  Log:26 - User clicked on Signup button 
-2023-05-18 21:03:37 INFO  Log:26 - User entered all the valid details and Submit 
-2023-05-18 21:03:38 INFO  Log:26 - Warning msg displayed is - Please enter OTP. 
-2023-05-18 21:03:38 INFO  Log:26 - User clicked on Submit button without OTP 
-2023-05-18 21:03:38 INFO  Log:26 - User not able to submit the blank OPT 
-2023-05-18 21:03:38 INFO  Log:19 - =====================================verifySignupWithoutOTP TEST END========================================= 
-2023-05-18 21:14:36 INFO  Log:15 - =====================================getCollectedTicketsInfo TEST START========================================= 
-2023-05-18 21:14:36 INFO  Log:26 - User clicked on the Login button 
-2023-05-18 21:14:36 INFO  Log:26 - User logged into the Application 
-2023-05-18 21:14:37 INFO  Log:26 - User came on the Profile Page 
-2023-05-18 21:14:37 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
-2023-05-18 21:14:37 INFO  Log:26 - You have 4 Tickets 
-2023-05-18 21:14:37 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
-2023-05-18 21:14:37 INFO  Log:26 - You have 3 Tickets 
-2023-05-18 21:14:37 INFO  Log:26 - User verified all the collected ticket information 
-2023-05-18 21:14:37 INFO  Log:19 - =====================================getCollectedTicketsInfo TEST END========================================= 
-2023-05-18 21:15:22 INFO  Log:15 - =====================================getCollectedTicketsInfo TEST START========================================= 
-2023-05-18 21:15:22 INFO  Log:26 - User clicked on the Login button 
-2023-05-18 21:15:23 INFO  Log:26 - User logged into the Application 
-2023-05-18 21:15:23 INFO  Log:26 - User came on the Profile Page 
-2023-05-18 21:15:24 INFO  Log:26 - Total collected cards are - 2 
-2023-05-18 21:15:24 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
-2023-05-18 21:15:24 INFO  Log:26 - You have 4 Tickets 
-2023-05-18 21:15:24 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
-2023-05-18 21:15:24 INFO  Log:26 - You have 3 Tickets 
-2023-05-18 21:15:24 INFO  Log:26 - User verified all the collected ticket information 
-2023-05-18 21:15:24 INFO  Log:19 - =====================================getCollectedTicketsInfo TEST END========================================= 
-2023-05-18 21:18:06 INFO  Log:15 - =====================================getCollectedTicketsInfo TEST START========================================= 
-2023-05-18 21:18:06 INFO  Log:26 - User clicked on the Login button 
-2023-05-18 21:18:06 INFO  Log:26 - User logged into the Application 
-2023-05-18 21:18:07 INFO  Log:26 - User came on the Profile Page 
-2023-05-18 21:18:07 INFO  Log:26 - Available collected ticket information -  
-2023-05-18 21:18:07 INFO  Log:26 - Total collected cards are - 2 
-2023-05-18 21:18:07 INFO  Log:26 - Ticket name = PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
-2023-05-18 21:18:07 INFO  Log:26 - No. of tickets = You have 4 Tickets 
-2023-05-18 21:18:07 INFO  Log:26 - Ticket name = PFL VIP Club - Lower Level Seats + VIP Experience 
-2023-05-18 21:18:07 INFO  Log:26 - No. of tickets = You have 3 Tickets 
-2023-05-18 21:18:07 INFO  Log:26 - User verified all the collected ticket information 
-2023-05-18 21:18:07 INFO  Log:19 - =====================================getCollectedTicketsInfo TEST END========================================= 
-2023-05-18 21:24:36 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
-2023-05-18 21:24:36 INFO  Log:26 - User clicked on Signup button 
-2023-05-18 21:24:36 INFO  Log:26 - Warning msg displayed is - Please enter the first name. 
-2023-05-18 21:24:36 INFO  Log:26 - Warning msg displayed is - Please enter the last name. 
-2023-05-18 21:24:36 INFO  Log:26 - Warning msg displayed is - Please enter the country code 
-2023-05-18 21:24:36 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-18 21:24:36 INFO  Log:26 - Warning msg displayed is - Please enter the password 
-2023-05-18 21:24:36 INFO  Log:26 - Warning msg displayed is - Minimum 8 Characters 
-2023-05-18 21:24:36 INFO  Log:26 - Warning msg displayed is - Atleast 1 Uppercase 
-2023-05-18 21:24:36 INFO  Log:26 - Warning msg displayed is - Atleast 1 Number 
-2023-05-18 21:24:36 INFO  Log:26 - Warning msg displayed is - Atleast 1 lowercase letter 
-2023-05-18 21:24:37 INFO  Log:26 - Warning msg displayed is - Atleast 1 Special character 
-2023-05-18 21:24:37 INFO  Log:26 - Warning msg displayed is - Please enter the confirm passwords 
-2023-05-18 21:24:37 INFO  Log:26 - User click on signup button without details 
-2023-05-18 21:24:37 INFO  Log:26 - User is not able to proceed without details 
-2023-05-18 21:24:37 INFO  Log:19 - =====================================signupWithoutDetails TEST END========================================= 
-2023-05-18 21:24:44 INFO  Log:15 - =====================================verifySignupWithUsedMobileNoEmail TEST START========================================= 
-2023-05-18 21:24:44 INFO  Log:26 - User click on Signup button on Home Page 
-2023-05-18 21:24:44 INFO  Log:26 - Warning msg displayed is - Phone number already register, Please login to continue 
-2023-05-18 21:24:44 INFO  Log:26 - User entered all the details with used mobile number and email 
-2023-05-18 21:24:44 INFO  Log:26 - User is not able to signup with used Email and mobile number 
-2023-05-18 21:24:44 INFO  Log:19 - =====================================verifySignupWithUsedMobileNoEmail TEST END========================================= 
-2023-05-18 21:24:51 INFO  Log:15 - =====================================verifySignupWithWrongOTP TEST START========================================= 
-2023-05-18 21:24:52 INFO  Log:26 - User clicked on Signup button 
-2023-05-18 21:25:09 INFO  Log:15 - =====================================verifySignupWithoutCheckingCheckbox TEST START========================================= 
-2023-05-18 21:25:09 INFO  Log:26 - User click on Signup button on Home Page 
-2023-05-18 21:25:27 INFO  Log:15 - =====================================verifySignupWithoutOTP TEST START========================================= 
-2023-05-18 21:25:27 INFO  Log:26 - User clicked on Signup button 
-2023-05-18 21:25:28 INFO  Log:26 - User entered all the valid details and Submit 
-2023-05-18 21:25:29 INFO  Log:26 - Warning msg displayed is - Please enter OTP. 
-2023-05-18 21:25:29 INFO  Log:26 - User clicked on Submit button without OTP 
-2023-05-18 21:25:29 INFO  Log:26 - User not able to submit the blank OPT 
-2023-05-18 21:25:29 INFO  Log:19 - =====================================verifySignupWithoutOTP TEST END========================================= 
-2023-05-18 21:25:36 INFO  Log:15 - =====================================userLogin TEST START========================================= 
-2023-05-18 21:25:36 INFO  Log:26 - User clicked on Login button 
-2023-05-18 21:25:36 INFO  Log:26 - User login to the application 
-2023-05-18 21:25:37 INFO  Log:26 - User profile image and name displayed on Home Page 
-2023-05-18 21:25:37 INFO  Log:19 - =====================================userLogin TEST END========================================= 
-2023-05-18 21:25:46 INFO  Log:15 - =====================================verifyLoginWithInvalidEmail TEST START========================================= 
-2023-05-18 21:25:46 INFO  Log:26 - User click on login button on Home Page 
-2023-05-18 21:25:46 INFO  Log:26 - User clicked on Login button with Invalid Email 
-2023-05-18 21:25:46 INFO  Log:26 - Warning msg displayed is - Please signup to login. 
-2023-05-18 21:25:46 INFO  Log:26 - User is not able to login with Invalid Email 
-2023-05-18 21:25:46 INFO  Log:19 - =====================================verifyLoginWithInvalidEmail TEST END========================================= 
-2023-05-18 21:25:53 INFO  Log:15 - =====================================verifyLoginWithInvalidPass TEST START========================================= 
-2023-05-18 21:25:54 INFO  Log:26 - User click on login button on Home Page 
-2023-05-18 21:25:54 INFO  Log:26 - User clicked on Login button with Invalid Password 
-2023-05-18 21:25:54 INFO  Log:26 - Warning msg displayed is - Invalid credential. 
-2023-05-18 21:25:54 INFO  Log:26 - User is not able to login with Invalid Password 
-2023-05-18 21:25:54 INFO  Log:19 - =====================================verifyLoginWithInvalidPass TEST END========================================= 
-2023-05-18 21:26:01 INFO  Log:15 - =====================================verifyLoginWithoutEmail TEST START========================================= 
-2023-05-18 21:26:01 INFO  Log:26 - User click on login button on Home Page 
-2023-05-18 21:26:01 INFO  Log:26 - User clicked on Login button without email 
-2023-05-18 21:26:01 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-18 21:26:01 INFO  Log:26 - User is not able to login without Email 
-2023-05-18 21:26:01 INFO  Log:19 - =====================================verifyLoginWithoutEmail TEST END========================================= 
-2023-05-18 21:26:08 INFO  Log:15 - =====================================verifyLoginWithoutEmailPass TEST START========================================= 
-2023-05-18 21:26:09 INFO  Log:26 - User click on login button on Home Page 
-2023-05-18 21:26:09 INFO  Log:26 - User clicked on Login button without Email & Password 
-2023-05-18 21:26:09 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-18 21:26:09 INFO  Log:26 - User is not able to login without Email & Password 
-2023-05-18 21:26:09 INFO  Log:19 - =====================================verifyLoginWithoutEmailPass TEST END========================================= 
-2023-05-18 21:26:16 INFO  Log:15 - =====================================verifyLoginWithoutPass TEST START========================================= 
-2023-05-18 21:26:16 INFO  Log:26 - User click on login button on Home Page 
-2023-05-18 21:26:16 INFO  Log:26 - User clicked on Login button without Password 
-2023-05-18 21:26:16 INFO  Log:26 - Warning msg displayed is - Please enter credential. 
-2023-05-18 21:26:16 INFO  Log:26 - User is not able to login without email 
-2023-05-18 21:26:16 INFO  Log:19 - =====================================verifyLoginWithoutEmail TEST END========================================= 
-2023-05-18 21:26:24 INFO  Log:15 - =====================================getCollectedTicketsInfo TEST START========================================= 
-2023-05-18 21:26:24 INFO  Log:26 - User clicked on the Login button 
-2023-05-18 21:26:24 INFO  Log:26 - User logged into the Application 
-2023-05-18 21:26:25 INFO  Log:26 - User came on the Profile Page 
-2023-05-18 21:26:25 INFO  Log:26 - Available collected ticket information -  
-2023-05-18 21:26:25 INFO  Log:26 - Total collected cards are - 2 
-2023-05-18 21:26:25 INFO  Log:26 - Ticket name = PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
-2023-05-18 21:26:25 INFO  Log:26 - No. of tickets = You have 4 Tickets 
-2023-05-18 21:26:25 INFO  Log:26 - Ticket name = PFL VIP Club - Lower Level Seats + VIP Experience 
-2023-05-18 21:26:25 INFO  Log:26 - No. of tickets = You have 3 Tickets 
-2023-05-18 21:26:25 INFO  Log:26 - User verified all the collected ticket information 
-2023-05-18 21:26:25 INFO  Log:19 - =====================================getCollectedTicketsInfo TEST END========================================= 
-2023-05-18 21:47:02 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
-2023-05-18 21:47:02 INFO  Log:26 - User clicked on Signup button 
-2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Please enter the first name. 
-2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Please enter the last name. 
-2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Please enter the country code 
-2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Please enter the password 
-2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Minimum 8 Characters 
-2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Atleast 1 Uppercase 
-2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Atleast 1 Number 
-2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Atleast 1 lowercase letter 
-2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Atleast 1 Special character 
-2023-05-18 21:47:02 INFO  Log:26 - Warning msg displayed is - Please enter the confirm passwords 
-2023-05-18 21:47:02 INFO  Log:26 - User click on signup button without details 
-2023-05-18 21:47:02 INFO  Log:26 - User is not able to proceed without details 
-2023-05-18 21:47:02 INFO  Log:19 - =====================================signupWithoutDetails TEST END========================================= 
-2023-05-18 21:48:29 INFO  Log:15 - =====================================verifySignupWithoutCheckingCheckbox TEST START========================================= 
-2023-05-18 21:48:29 INFO  Log:26 - User click on Signup button on Home Page 
-2023-05-19 18:33:12 INFO  Log:15 - =====================================verifyLoginWithInvalidPass TEST START========================================= 
-2023-05-19 18:33:12 INFO  Log:26 - User click on login button on Home Page 
-2023-05-19 18:33:12 INFO  Log:26 - User clicked on Login button with Invalid Password 
-2023-05-19 18:33:12 INFO  Log:26 - Warning msg displayed is - Invalid credential. 
-2023-05-19 18:33:13 INFO  Log:26 - User is not able to login with Invalid Password 
-2023-05-19 18:33:13 INFO  Log:19 - =====================================verifyLoginWithInvalidPass TEST END========================================= 
-2023-05-19 19:54:13 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
-2023-05-19 19:54:13 INFO  Log:26 - User clicked on Signup button 
-2023-05-19 19:54:13 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-19 19:54:56 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
-2023-05-19 19:54:56 INFO  Log:26 - User clicked on Signup button 
-2023-05-19 19:54:56 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-19 19:55:37 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
-2023-05-19 19:55:37 INFO  Log:26 - User clicked on Signup button 
-2023-05-19 19:55:37 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-19 19:57:05 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
-2023-05-19 19:57:05 INFO  Log:26 - User clicked on Signup button 
-2023-05-19 19:57:05 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-19 19:57:35 INFO  Log:15 - =====================================verifySignupWithUsedMobileNoEmail TEST START========================================= 
-2023-05-19 19:57:35 INFO  Log:26 - User click on Signup button on Home Page 
-2023-05-19 19:59:04 INFO  Log:15 - =====================================verifySignupWithUsedMobileNoEmail TEST START========================================= 
-2023-05-19 19:59:05 INFO  Log:26 - User click on Signup button on Home Page 
-2023-05-19 20:01:41 INFO  Log:15 - =====================================verifyLoginWithInvalidPass TEST START========================================= 
-2023-05-19 20:01:41 INFO  Log:26 - User click on login button on Home Page 
-2023-05-19 20:01:41 INFO  Log:26 - User clicked on Login button with Invalid Password 
-2023-05-19 20:01:41 INFO  Log:26 - Warning msg displayed is - Invalid credential. 
-2023-05-19 20:01:41 INFO  Log:26 - User is not able to login with Invalid Password 
-2023-05-19 20:01:41 INFO  Log:19 - =====================================verifyLoginWithInvalidPass TEST END========================================= 
-2023-05-19 20:02:38 INFO  Log:15 - =====================================verifySignupWithUsedMobileNoEmail TEST START========================================= 
-2023-05-19 20:02:38 INFO  Log:26 - User click on Signup button on Home Page 
-2023-05-19 20:04:22 INFO  Log:15 - =====================================verifySignupWithUsedMobileNoEmail TEST START========================================= 
-2023-05-19 20:04:22 INFO  Log:26 - User click on Signup button on Home Page 
-2023-05-19 20:07:03 INFO  Log:15 - =====================================getCollectedTicketsInfo TEST START========================================= 
-2023-05-19 20:07:03 INFO  Log:26 - User clicked on the Login button 
-2023-05-19 20:07:03 INFO  Log:26 - User logged into the Application 
-2023-05-19 20:07:04 INFO  Log:26 - User came on the Profile Page 
-2023-05-19 20:07:04 INFO  Log:26 - Available collected ticket information -  
-2023-05-19 20:07:04 INFO  Log:26 - Total collected cards are - 2 
-2023-05-19 20:07:04 INFO  Log:26 - Ticket name = PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
-2023-05-19 20:07:04 INFO  Log:26 - No. of tickets = You have 4 Tickets 
-2023-05-19 20:07:04 INFO  Log:26 - Ticket name = PFL VIP Club - Lower Level Seats + VIP Experience 
-2023-05-19 20:07:04 INFO  Log:26 - No. of tickets = You have 4 Tickets 
-2023-05-19 20:07:04 INFO  Log:26 - User verified all the collected ticket information 
-2023-05-19 20:07:04 INFO  Log:19 - =====================================getCollectedTicketsInfo TEST END========================================= 
-2023-05-19 20:07:35 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
-2023-05-19 20:07:35 INFO  Log:26 - User clicked on Signup button 
-2023-05-19 20:07:35 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-19 20:10:02 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
-2023-05-19 20:10:03 INFO  Log:26 - User clicked on Signup button 
-2023-05-19 20:10:03 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-19 20:10:51 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
-2023-05-19 20:10:51 INFO  Log:26 - User clicked on Signup button 
-2023-05-19 20:10:51 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-19 20:13:21 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
-2023-05-19 20:13:23 INFO  Log:26 - User clicked on Signup button 
-2023-05-19 20:13:23 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-19 20:34:06 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
-2023-05-19 20:34:06 INFO  Log:26 - User clicked on Signup button 
-2023-05-19 20:34:06 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
-2023-05-19 20:38:17 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
-2023-05-19 20:38:17 INFO  Log:26 - User clicked on Signup button 
-2023-05-19 20:38:17 INFO  Log:26 - Warning msg displayed is - Please enter the email. 
+2023-05-23 03:10:21 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-23 03:10:23 INFO  Log:26 - No of other links available on the footer are = 4 
+2023-05-23 03:10:27 INFO  Log:26 - URL for About Us is = https://crosstower.com/about-us/ 
+2023-05-23 03:10:28 INFO  Log:26 - URL for Contact Us is = https://crosstower.com/about-us/ 
+2023-05-23 03:10:28 INFO  Log:26 - URL for Terms and Conditions is = https://crosstower.com/about-us/ 
+2023-05-23 03:10:28 INFO  Log:26 - URL for Privacy Policy is = https://crosstower.com/about-us/ 
+2023-05-23 03:10:28 INFO  Log:19 - =====================================checkOtherPageLinks TEST END========================================= 
+2023-05-23 03:21:32 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-23 03:21:34 INFO  Log:26 - No of other links available on the footer are = 4 
+2023-05-23 03:21:39 INFO  Log:26 - URL for About Us is = https://crosstower.com/about-us/ 
+2023-05-23 03:22:41 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-23 03:22:43 INFO  Log:26 - No of other links available on the footer are = 4 
+2023-05-23 03:22:48 INFO  Log:26 - URL for About Us is = https://crosstower.com/about-us/ 
+2023-05-23 03:22:48 INFO  Log:26 - URL for Contact Us is = https://crosstower.com/about-us/ 
+2023-05-23 03:22:48 INFO  Log:26 - URL for Terms and Conditions is = https://crosstower.com/about-us/ 
+2023-05-23 03:22:48 INFO  Log:26 - URL for Privacy Policy is = https://crosstower.com/about-us/ 
+2023-05-23 03:22:48 INFO  Log:19 - =====================================checkOtherPageLinks TEST END========================================= 
+2023-05-23 03:24:57 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-23 03:24:59 INFO  Log:26 - No of other links available on the footer are = 4 
+2023-05-23 03:25:04 INFO  Log:26 - URL for About Us is = https://crosstower.com/about-us/ 
+2023-05-23 03:25:04 INFO  Log:26 - URL for Contact Us is = https://crosstower.com/about-us/ 
+2023-05-23 03:25:05 INFO  Log:26 - URL for Terms and Conditions is = https://crosstower.com/about-us/ 
+2023-05-23 03:25:05 INFO  Log:26 - URL for Privacy Policy is = https://crosstower.com/about-us/ 
+2023-05-23 03:25:05 INFO  Log:19 - =====================================checkOtherPageLinks TEST END========================================= 
+2023-05-23 03:32:47 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-23 03:32:52 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-23 03:32:56 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:33:00 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:33:04 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:33:08 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:33:12 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:33:17 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:33:21 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:33:23 INFO  Log:19 - =====================================checkOtherPageLinks TEST END========================================= 
+2023-05-23 03:35:53 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-23 03:35:58 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-23 03:36:02 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:36:02 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:36:06 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:36:06 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:36:10 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:36:10 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:36:14 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:36:14 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:36:18 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:36:18 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:36:23 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:36:23 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:36:27 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:36:27 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:36:29 INFO  Log:19 - =====================================checkOtherPageLinks TEST END========================================= 
+2023-05-23 03:39:47 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-23 03:39:52 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-23 03:39:55 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:40:37 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-23 03:40:42 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-23 03:40:46 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:40:50 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:40:54 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:40:58 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:41:03 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:41:07 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:41:11 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:41:13 INFO  Log:19 - =====================================checkOtherPageLinks TEST END========================================= 
+2023-05-23 03:48:12 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-23 03:48:17 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-23 03:48:20 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:48:26 INFO  Log:26 - URL for  is = https://twitter.com/crosstower_ex 
+2023-05-23 03:48:32 INFO  Log:26 - URL for  is = https://www.instagram.com/crosstowernft/ 
+2023-05-23 03:48:37 INFO  Log:26 - URL for  is = https://www.linkedin.com/company/crosstower/?original_referer=https%3A%2F%2Fticketverse.crosstower.com%2F 
+2023-05-23 03:48:44 INFO  Log:26 - URL for  is = https://www.youtube.com/@crosstower5414 
+2023-05-23 03:48:51 INFO  Log:26 - URL for  is = https://t.me/CrossTowerAnnouncements 
+2023-05-23 03:48:59 INFO  Log:26 - URL for  is = https://discord.com/invite/gaUX247vZC 
+2023-05-23 03:49:01 INFO  Log:19 - =====================================checkOtherPageLinks TEST END========================================= 
+2023-05-23 03:56:26 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-23 03:56:31 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-23 03:56:35 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:57:57 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-23 03:58:02 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-23 03:58:05 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 03:58:11 INFO  Log:26 - URL for  is = https://twitter.com/crosstower_ex 
+2023-05-23 03:58:16 INFO  Log:26 - URL for  is = https://www.instagram.com/crosstowernft/ 
+2023-05-23 03:58:22 INFO  Log:26 - URL for  is = https://www.linkedin.com/company/crosstower/?original_referer=https%3A%2F%2Fticketverse.crosstower.com%2F 
+2023-05-23 03:58:29 INFO  Log:26 - URL for  is = https://www.youtube.com/@crosstower5414 
+2023-05-23 03:58:36 INFO  Log:26 - URL for  is = https://t.me/CrossTowerAnnouncements 
+2023-05-23 03:58:42 INFO  Log:26 - URL for  is = https://discord.com/invite/gaUX247vZC 
+2023-05-23 03:58:44 INFO  Log:19 - =====================================checkOtherPageLinks TEST END========================================= 
+2023-05-23 03:59:39 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-23 03:59:39 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-23 04:00:58 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-23 04:01:00 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-23 04:01:01 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 04:01:03 INFO  Log:26 - URL for  is = https://twitter.com/crosstower_ex 
+2023-05-23 04:01:05 INFO  Log:26 - URL for  is = https://www.instagram.com/crosstowernft/ 
+2023-05-23 04:01:07 INFO  Log:26 - URL for  is = https://www.linkedin.com/company/crosstower/?original_referer=https%3A%2F%2Fticketverse.crosstower.com%2F 
+2023-05-23 04:01:10 INFO  Log:26 - URL for  is = https://www.youtube.com/@crosstower5414/ 
+2023-05-23 04:02:10 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-23 04:02:13 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-23 04:02:14 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-23 04:02:15 INFO  Log:26 - URL for  is = https://twitter.com/crosstower_ex 
+2023-05-23 04:02:17 INFO  Log:26 - URL for  is = https://www.instagram.com/crosstowernft/ 
+2023-05-23 04:02:19 INFO  Log:26 - URL for  is = https://www.linkedin.com/company/crosstower/?original_referer=https%3A%2F%2Fticketverse.crosstower.com%2F 
+2023-05-23 04:02:22 INFO  Log:26 - URL for  is = https://www.youtube.com/@crosstower5414/ 
+2023-05-23 04:02:24 INFO  Log:26 - URL for  is = https://t.me/CrossTowerAnnouncements 
+2023-05-23 04:02:26 INFO  Log:26 - URL for  is = https://discord.com/invite/gaUX247vZC 
+2023-05-23 04:02:26 INFO  Log:19 - =====================================checkOtherPageLinks TEST END========================================= 
+ 
+2023-05-23 21:14:40 INFO  Log:15 - =====================================ticketsInfo TEST START========================================= 
+2023-05-23 21:14:40 INFO  Log:32 - 2 
+2023-05-23 21:14:40 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-23 21:14:40 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-23 21:14:40 INFO  Log:26 - PFL 2023 Season 
+2023-05-23 21:14:41 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-23 21:14:41 INFO  Log:26 - $159.00 
+2023-05-23 21:14:41 INFO  Log:26 - 23Jun, 2023 
+2023-05-23 21:14:41 INFO  Log:32 - 2 
+2023-05-23 21:14:41 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-23 21:14:41 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-23 21:14:41 INFO  Log:26 - PFL 2023 Season 
+2023-05-23 21:14:41 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-23 21:14:41 INFO  Log:26 - $595.00 
+2023-05-23 21:14:41 INFO  Log:26 - 23Jun, 2023 
+2023-05-23 21:14:41 INFO  Log:19 - =====================================ticketsInfo TEST END========================================= 
+2023-05-23 21:19:53 INFO  Log:15 - =====================================ticketsInfo TEST START========================================= 
+2023-05-23 21:19:53 INFO  Log:32 - 2 
+2023-05-23 21:19:53 INFO  Log:32 - 0 
+2023-05-23 21:19:53 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-23 21:19:53 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-23 21:19:53 INFO  Log:26 - PFL 2023 Season 
+2023-05-23 21:19:53 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-23 21:19:53 INFO  Log:26 - $159.00 
+2023-05-23 21:19:53 INFO  Log:26 - 23Jun, 2023 
+2023-05-23 21:19:53 INFO  Log:32 - 1 
+2023-05-23 21:19:53 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-23 21:19:53 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-23 21:19:53 INFO  Log:26 - PFL 2023 Season 
+2023-05-23 21:19:53 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-23 21:19:53 INFO  Log:26 - $595.00 
+2023-05-23 21:19:53 INFO  Log:26 - 23Jun, 2023 
+2023-05-23 21:19:53 INFO  Log:19 - =====================================ticketsInfo TEST END========================================= 
+2023-05-23 21:30:02 INFO  Log:15 - =====================================ticketsInfo TEST START========================================= 
+2023-05-23 21:30:02 INFO  Log:26 - No of tickets availabe = 2 
+2023-05-23 21:30:02 INFO  Log:26 - Ticket = 1 
+2023-05-23 21:30:02 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-23 21:30:02 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-23 21:30:02 INFO  Log:26 - PFL 2023 Season 
+2023-05-23 21:30:02 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-23 21:30:02 INFO  Log:26 - $595.00 
+2023-05-23 21:30:02 INFO  Log:26 - 23Jun, 2023 
+2023-05-23 21:30:02 INFO  Log:19 - =====================================ticketsInfo TEST END========================================= 
+2023-05-24 12:09:38 INFO  Log:15 - =====================================ticketsInfo TEST START========================================= 
+2023-05-24 12:09:38 INFO  Log:26 - No of tickets availabe = 2 
+2023-05-24 12:09:38 INFO  Log:26 - Ticket = 01 
+2023-05-24 12:09:38 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-24 12:09:38 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-24 12:09:38 INFO  Log:26 - PFL 2023 Season 
+2023-05-24 12:09:38 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-24 12:09:38 INFO  Log:26 - $159.00 
+2023-05-24 12:09:38 INFO  Log:26 - 23Jun, 2023 
+2023-05-24 12:09:38 INFO  Log:26 - Ticket = 11 
+2023-05-24 12:09:38 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-24 12:09:38 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-24 12:09:38 INFO  Log:26 - PFL 2023 Season 
+2023-05-24 12:09:38 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-24 12:09:38 INFO  Log:26 - $595.00 
+2023-05-24 12:09:38 INFO  Log:26 - 23Jun, 2023 
+2023-05-24 12:09:38 INFO  Log:19 - =====================================ticketsInfo TEST END========================================= 
+2023-05-24 12:10:23 INFO  Log:15 - =====================================ticketsInfo TEST START========================================= 
+2023-05-24 12:10:23 INFO  Log:26 - No of tickets availabe = 4 
+2023-05-24 12:10:23 INFO  Log:26 - Ticket = 01 
+2023-05-24 12:10:23 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-24 12:10:23 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-24 12:10:23 INFO  Log:26 - PFL 2023 Season 
+2023-05-24 12:10:23 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-24 12:10:23 INFO  Log:26 - $595.00 
+2023-05-24 12:10:24 INFO  Log:26 - 23Jun, 2023 
+2023-05-24 12:10:24 INFO  Log:26 - Ticket = 11 
+2023-05-24 12:10:24 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience-Test 
+2023-05-24 12:10:24 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-24 12:10:24 INFO  Log:26 - PFL 2023 Season 
+2023-05-24 12:10:24 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-24 12:10:24 INFO  Log:26 - $595.00 
+2023-05-24 12:10:24 INFO  Log:26 - 22Jun, 2023 
+2023-05-24 12:10:24 INFO  Log:26 - Ticket = 21 
+2023-05-24 12:10:24 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-24 12:10:24 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-24 12:10:24 INFO  Log:26 - PFL 2023 Season 
+2023-05-24 12:10:24 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-24 12:10:24 INFO  Log:26 - $595.00 
+2023-05-24 12:10:24 INFO  Log:26 - 22Jun, 2023 
+2023-05-24 12:10:24 INFO  Log:26 - Ticket = 31 
+2023-05-24 12:10:24 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-24 12:10:24 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-24 12:10:24 INFO  Log:26 - PFL 2023 Season 
+2023-05-24 12:10:24 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-24 12:10:24 INFO  Log:26 - $159.00 
+2023-05-24 12:10:24 INFO  Log:26 - 23Jun, 2023 
+2023-05-24 12:10:24 INFO  Log:19 - =====================================ticketsInfo TEST END========================================= 
+2023-05-24 12:11:46 INFO  Log:15 - =====================================ticketsInfo TEST START========================================= 
+2023-05-24 12:11:54 INFO  Log:26 - No of tickets availabe = 4 
+2023-05-24 12:11:54 INFO  Log:26 - Ticket = 1 
+2023-05-24 12:11:54 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-24 12:11:54 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-24 12:11:54 INFO  Log:26 - PFL 2023 Season 
+2023-05-24 12:11:54 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-24 12:11:54 INFO  Log:26 - $595.00 
+2023-05-24 12:11:54 INFO  Log:26 - 23Jun, 2023 
+2023-05-24 12:11:54 INFO  Log:26 - Ticket = 2 
+2023-05-24 12:11:54 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience-Test 
+2023-05-24 12:11:54 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-24 12:11:54 INFO  Log:26 - PFL 2023 Season 
+2023-05-24 12:11:54 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-24 12:11:54 INFO  Log:26 - $595.00 
+2023-05-24 12:11:54 INFO  Log:26 - 22Jun, 2023 
+2023-05-24 12:11:54 INFO  Log:26 - Ticket = 3 
+2023-05-24 12:11:54 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-24 12:11:54 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-24 12:11:54 INFO  Log:26 - PFL 2023 Season 
+2023-05-24 12:11:54 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-24 12:11:54 INFO  Log:26 - $595.00 
+2023-05-24 12:11:54 INFO  Log:26 - 22Jun, 2023 
+2023-05-24 12:11:54 INFO  Log:26 - Ticket = 4 
+2023-05-24 12:11:54 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-24 12:11:54 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-24 12:11:54 INFO  Log:26 - PFL 2023 Season 
+2023-05-24 12:11:54 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-24 12:11:54 INFO  Log:26 - $159.00 
+2023-05-24 12:11:54 INFO  Log:26 - 23Jun, 2023 
+2023-05-24 12:11:54 INFO  Log:19 - =====================================ticketsInfo TEST END========================================= 
+2023-05-25 15:41:04 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
+2023-05-25 15:50:22 INFO  Log:15 - =====================================signupWithoutDetails TEST START========================================= 
+2023-05-25 15:50:23 INFO  Log:26 - User clicked on Signup button 
+2023-05-25 15:50:23 INFO  Log:26 - Warning msg displayed is - Please enter your first name. 
+2023-05-25 15:50:23 INFO  Log:26 - Warning msg displayed is - Please enter your last name. 
+2023-05-25 15:50:23 INFO  Log:26 - Warning msg displayed is - Please enter your phone number. 
+2023-05-25 15:50:23 INFO  Log:26 - Warning msg displayed is - Please enter your email address. 
+2023-05-25 15:50:23 INFO  Log:26 - Warning msg displayed is - Please enter your password. 
+2023-05-25 15:50:23 INFO  Log:26 - Warning msg displayed is - Minimum 8 characters 
+2023-05-25 15:50:23 INFO  Log:26 - Warning msg displayed is - Atleast 1 uppercase 
+2023-05-25 15:50:23 INFO  Log:26 - Warning msg displayed is - Atleast 1 number 
+2023-05-25 15:50:23 INFO  Log:26 - Warning msg displayed is - Atleast 1 lowercase 
+2023-05-25 15:50:23 INFO  Log:26 - Warning msg displayed is - Atleast 1 special character 
+2023-05-25 15:50:23 INFO  Log:26 - Warning msg displayed is - Please re-enter the password for confirmation. 
+2023-05-25 15:50:23 INFO  Log:26 - Warning msg displayed is - Please agree to the Terms & conditions and Privacy Policy 
+2023-05-25 15:50:23 INFO  Log:26 - User click on signup button without details 
+2023-05-25 15:50:23 INFO  Log:26 - User is not able to proceed without details 
+2023-05-25 15:50:23 INFO  Log:19 - =====================================signupWithoutDetails TEST END========================================= 
+2023-05-25 15:52:54 INFO  Log:15 - =====================================verifySignupWithUsedMobileNoEmail TEST START========================================= 
+2023-05-25 15:52:54 INFO  Log:26 - User click on Signup button on Home Page 
+2023-05-25 15:54:55 INFO  Log:15 - =====================================verifySignupWithUsedMobileNoEmail TEST START========================================= 
+2023-05-25 15:54:55 INFO  Log:26 - User click on Signup button on Home Page 
+2023-05-25 15:54:56 INFO  Log:26 - Warning msg displayed is - Phone number already register, Please login to continue 
+2023-05-25 15:54:56 INFO  Log:26 - User entered all the details with used mobile number and email 
+2023-05-25 15:54:56 INFO  Log:26 - User is not able to signup with used Email and mobile number 
+2023-05-25 15:54:56 INFO  Log:19 - =====================================verifySignupWithUsedMobileNoEmail TEST END========================================= 
+2023-05-25 15:55:16 INFO  Log:15 - =====================================verifySignupWithUsedMobileNoEmail TEST START========================================= 
+2023-05-25 15:55:16 INFO  Log:26 - User click on Signup button on Home Page 
+2023-05-25 15:55:17 INFO  Log:26 - Warning msg displayed is - Phone number already register, Please login to continue 
+2023-05-25 15:55:17 INFO  Log:26 - User entered all the details with used mobile number and email 
+2023-05-25 15:55:17 INFO  Log:26 - User is not able to signup with used Email and mobile number 
+2023-05-25 15:55:17 INFO  Log:19 - =====================================verifySignupWithUsedMobileNoEmail TEST END========================================= 
+2023-05-25 15:56:31 INFO  Log:15 - =====================================verifySignupWithoutOTP TEST START========================================= 
+2023-05-25 15:57:22 INFO  Log:15 - =====================================verifySignupWithoutOTP TEST START========================================= 
+2023-05-25 15:57:23 INFO  Log:26 - User clicked on Signup button 
+2023-05-25 15:57:24 INFO  Log:26 - User entered all the valid details and Submit 
+2023-05-25 15:57:25 INFO  Log:26 - Warning msg displayed is - Please enter verification code. 
+2023-05-25 15:57:25 INFO  Log:26 - User clicked on Submit button without OTP 
+2023-05-25 15:57:25 INFO  Log:26 - User not able to submit the blank OPT 
+2023-05-25 15:57:25 INFO  Log:19 - =====================================verifySignupWithoutOTP TEST END========================================= 
+2023-05-26 16:42:18 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-26 16:42:20 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-26 16:56:03 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-26 16:56:05 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-26 16:57:02 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-26 16:57:04 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-26 16:57:45 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-26 16:57:48 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-26 16:58:15 INFO  Log:15 - =====================================checkOtherPageLinks TEST START========================================= 
+2023-05-26 16:58:17 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-26 16:58:19 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-26 16:58:25 INFO  Log:26 - URL for  is = https://twitter.com/crosstower_ex 
+2023-05-26 16:58:27 INFO  Log:26 - URL for  is = https://www.instagram.com/crosstowernft/ 
+2023-05-26 16:58:30 INFO  Log:26 - URL for  is = https://www.linkedin.com/authwall?trk=gf&trkInfo=AQHZPYy5nKzdgQAAAYhX0TswWpLc6ttuGFrJLLbxAA2Coi0J2BwCQrFQGsq3RzNG2B7JcV2zd0eLfqDNFXHfPP_g_azUnSWD2Ie6vlt7i4vvFISw-2jr78fnYYOSADihcW1BpGA=&original_referer=https://www.linkedin.com/company/crosstower/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fcrosstower%2F%3Foriginal_referer%3Dhttps%253A%252F%252Fpfl-uat.dafgknayzjm5r.amplifyapp.com%252F 
+2023-05-27 16:04:44 INFO  Log:15 - =====================================checkSocialMediaLinks TEST START========================================= 
+2023-05-27 16:04:46 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-27 16:04:48 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-27 16:04:51 INFO  Log:26 - URL for  is = https://twitter.com/crosstower_ex 
+2023-05-27 16:04:53 INFO  Log:26 - URL for  is = https://www.instagram.com/crosstowernft/ 
+2023-05-27 16:04:55 INFO  Log:26 - URL for  is = https://www.linkedin.com/company/crosstower/?original_referer=https%3A%2F%2Fcrosstower.com%2F 
+2023-05-27 16:13:43 INFO  Log:15 - =====================================checkSocialMediaLinks TEST START========================================= 
+2023-05-27 16:13:45 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-27 16:13:46 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-27 16:13:50 INFO  Log:26 - URL for  is = https://twitter.com/crosstower_ex 
+2023-05-27 16:13:51 INFO  Log:26 - URL for  is = https://www.instagram.com/crosstowernft/ 
+2023-05-27 16:13:53 INFO  Log:26 - URL for  is = https://www.linkedin.com/company/crosstower/?original_referer=https%3A%2F%2Fcrosstower.com%2F 
+2023-05-27 16:13:55 INFO  Log:26 - URL for  is = https://www.youtube.com/@crosstower5414/ 
+2023-05-27 16:13:58 INFO  Log:26 - URL for  is = https://t.me/CrossTowerAnnouncements 
+2023-05-27 16:14:01 INFO  Log:26 - URL for  is = https://discord.com/invite/gaUX247vZC 
+2023-05-27 16:14:01 INFO  Log:19 - =====================================checkSocialMediaLinks TEST END========================================= 
+2023-05-27 16:15:04 INFO  Log:15 - =====================================checkSocialMediaLinks TEST START========================================= 
+2023-05-27 16:15:06 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-27 16:15:07 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-27 16:15:11 INFO  Log:26 - URL for  is = https://twitter.com/crosstower_ex 
+2023-05-27 16:15:13 INFO  Log:26 - URL for  is = https://www.instagram.com/crosstowernft/ 
+2023-05-27 16:15:15 INFO  Log:26 - URL for  is = https://www.linkedin.com/company/crosstower/?original_referer=https%3A%2F%2Fcrosstower.com%2F 
+2023-05-30 15:50:57 INFO  Log:15 - =====================================checkSocialMediaLinks TEST START========================================= 
+2023-05-30 15:50:59 INFO  Log:26 - No of other links available on the footer are = 7 
+2023-05-30 15:51:00 INFO  Log:26 - URL for  is = https://www.facebook.com/crosstowernft 
+2023-05-30 15:51:03 INFO  Log:26 - URL for  is = https://twitter.com/crosstower_ex 
+2023-05-30 15:51:05 INFO  Log:26 - URL for  is = https://www.instagram.com/crosstowernft/ 
+2023-05-30 15:51:07 INFO  Log:26 - URL for  is = https://www.linkedin.com/company/crosstower/?original_referer=https%3A%2F%2Fcrosstower.com%2F 
+2023-05-30 17:11:31 INFO  Log:15 - =====================================getTheTicketDetails TEST START========================================= 
+2023-05-30 17:11:31 INFO  Log:26 - No of tickets availabe = 2 
+2023-05-30 17:11:31 INFO  Log:26 - Ticket = 1 
+2023-05-30 17:11:31 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-30 17:11:31 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:11:31 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:11:31 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:11:31 INFO  Log:26 - $595.00 
+2023-05-30 17:11:32 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:11:32 INFO  Log:26 - Ticket = 2 
+2023-05-30 17:11:32 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-30 17:11:32 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:11:32 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:11:32 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:11:32 INFO  Log:26 - $159.00 
+2023-05-30 17:11:32 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:11:32 INFO  Log:19 - =====================================getTheTicketDetails TEST END========================================= 
+2023-05-30 17:16:05 INFO  Log:15 - =====================================getTheTicketDetails TEST START========================================= 
+2023-05-30 17:16:05 INFO  Log:26 - No of tickets availabe = 2 
+2023-05-30 17:16:05 INFO  Log:26 - Ticket = 1 
+2023-05-30 17:16:05 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-30 17:16:05 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:16:05 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:16:05 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:16:05 INFO  Log:26 - $595.00 
+2023-05-30 17:16:05 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:16:05 INFO  Log:26 - Ticket = 2 
+2023-05-30 17:16:05 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-30 17:16:05 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:16:05 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:16:05 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:16:05 INFO  Log:26 - $159.00 
+2023-05-30 17:16:05 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:16:05 INFO  Log:19 - =====================================getTheTicketDetails TEST END========================================= 
+2023-05-30 17:16:45 INFO  Log:15 - =====================================getTheTicketDetails TEST START========================================= 
+2023-05-30 17:16:45 INFO  Log:26 - No of tickets availabe = 4 
+2023-05-30 17:16:45 INFO  Log:26 - Ticket = 1 
+2023-05-30 17:16:45 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-30 17:16:45 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:16:45 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:16:45 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:16:45 INFO  Log:26 - $595.00 
+2023-05-30 17:16:45 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:16:45 INFO  Log:26 - Ticket = 2 
+2023-05-30 17:16:45 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-30 17:16:45 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:16:45 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:16:45 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:16:45 INFO  Log:26 - $159.00 
+2023-05-30 17:16:45 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:16:45 INFO  Log:26 - Ticket = 3 
+2023-05-30 17:16:45 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-30 17:16:45 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:16:45 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:16:45 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:16:45 INFO  Log:26 - $595.00 
+2023-05-30 17:16:45 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:16:45 INFO  Log:26 - Ticket = 4 
+2023-05-30 17:16:45 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-30 17:16:45 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:16:45 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:16:45 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:16:45 INFO  Log:26 - $159.00 
+2023-05-30 17:16:45 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:16:45 INFO  Log:19 - =====================================getTheTicketDetails TEST END========================================= 
+2023-05-30 17:17:41 INFO  Log:15 - =====================================getTheTicketDetails TEST START========================================= 
+2023-05-30 17:17:41 INFO  Log:26 - No of tickets availabe = 4 
+2023-05-30 17:17:41 INFO  Log:26 - Ticket = 1 
+2023-05-30 17:17:41 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-30 17:17:41 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:17:41 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:17:41 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:17:41 INFO  Log:26 - $595.00 
+2023-05-30 17:17:41 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:17:41 INFO  Log:26 - Ticket = 2 
+2023-05-30 17:17:41 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-30 17:17:41 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:17:41 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:17:41 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:17:41 INFO  Log:26 - $159.00 
+2023-05-30 17:17:41 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:17:41 INFO  Log:26 - Ticket = 3 
+2023-05-30 17:17:41 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-30 17:17:41 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:17:41 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:17:41 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:17:41 INFO  Log:26 - $595.00 
+2023-05-30 17:17:41 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:17:41 INFO  Log:26 - Ticket = 4 
+2023-05-30 17:17:41 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-30 17:17:41 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:17:41 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:17:41 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:17:41 INFO  Log:26 - $159.00 
+2023-05-30 17:17:41 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:17:41 INFO  Log:19 - =====================================getTheTicketDetails TEST END========================================= 
+2023-05-30 17:19:30 INFO  Log:15 - =====================================getTheTicketDetails TEST START========================================= 
+2023-05-30 17:19:31 INFO  Log:26 - No of tickets availabe = 4 
+2023-05-30 17:19:31 INFO  Log:26 - Ticket = 1 
+2023-05-30 17:19:31 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-30 17:19:31 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:19:31 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:19:31 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:19:31 INFO  Log:26 - $595.00 
+2023-05-30 17:19:31 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:19:31 INFO  Log:26 - Ticket = 2 
+2023-05-30 17:19:31 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-30 17:19:31 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:19:31 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:19:31 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:19:31 INFO  Log:26 - $159.00 
+2023-05-30 17:19:31 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:19:31 INFO  Log:26 - Ticket = 3 
+2023-05-30 17:19:31 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-30 17:19:31 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:19:31 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:19:31 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:19:31 INFO  Log:26 - $595.00 
+2023-05-30 17:19:31 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:19:31 INFO  Log:26 - Ticket = 4 
+2023-05-30 17:19:31 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-30 17:19:31 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:19:31 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:19:31 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:19:31 INFO  Log:26 - $159.00 
+2023-05-30 17:19:31 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:19:31 INFO  Log:19 - =====================================getTheTicketDetails TEST END========================================= 
+2023-05-30 17:20:36 INFO  Log:15 - =====================================getTheTicketDetails TEST START========================================= 
+2023-05-30 17:20:36 INFO  Log:26 - No of tickets availabe = 4 
+2023-05-30 17:20:36 INFO  Log:26 - Ticket = 1 
+2023-05-30 17:20:36 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-30 17:20:36 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:20:36 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:20:36 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:20:36 INFO  Log:26 - $595.00 
+2023-05-30 17:20:36 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:20:36 INFO  Log:26 - Ticket = 2 
+2023-05-30 17:20:36 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-30 17:20:36 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:20:37 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:20:37 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:20:37 INFO  Log:26 - $159.00 
+2023-05-30 17:20:37 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:20:37 INFO  Log:26 - Ticket = 3 
+2023-05-30 17:20:37 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-30 17:20:37 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:20:37 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:20:37 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:20:37 INFO  Log:26 - $595.00 
+2023-05-30 17:20:37 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:20:37 INFO  Log:26 - Ticket = 4 
+2023-05-30 17:20:37 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-30 17:20:37 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:20:37 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:20:37 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:20:37 INFO  Log:26 - $159.00 
+2023-05-30 17:20:37 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:20:37 INFO  Log:19 - =====================================getTheTicketDetails TEST END========================================= 
+2023-05-30 17:21:33 INFO  Log:15 - =====================================getTheTicketDetails TEST START========================================= 
+2023-05-30 17:21:33 INFO  Log:26 - No of tickets availabe = 4 
+2023-05-30 17:21:33 INFO  Log:26 - Ticket = 1 
+2023-05-30 17:21:33 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-30 17:21:33 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:21:33 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:21:33 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:21:33 INFO  Log:26 - $595.00 
+2023-05-30 17:21:33 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:21:33 INFO  Log:26 - Ticket = 2 
+2023-05-30 17:21:33 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-30 17:21:33 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:21:33 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:21:33 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:21:33 INFO  Log:26 - $159.00 
+2023-05-30 17:21:33 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:21:33 INFO  Log:26 - Ticket = 3 
+2023-05-30 17:21:33 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-30 17:21:34 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:21:34 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:21:34 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:21:34 INFO  Log:26 - $595.00 
+2023-05-30 17:21:34 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:21:34 INFO  Log:26 - Ticket = 4 
+2023-05-30 17:21:34 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-30 17:21:34 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:21:34 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:21:34 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:21:34 INFO  Log:26 - $159.00 
+2023-05-30 17:21:34 INFO  Log:26 - 23Jun, 2023 
+2023-05-30 17:21:34 INFO  Log:19 - =====================================getTheTicketDetails TEST END========================================= 
+2023-05-30 17:22:45 INFO  Log:15 - =====================================getTheTicketDetails TEST START========================================= 
+2023-05-30 17:22:45 INFO  Log:26 - No of tickets availabe = 4 
+2023-05-30 17:22:45 INFO  Log:26 - Ticket = 1 
+2023-05-30 17:22:45 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-30 17:22:45 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:22:45 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:22:45 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:22:45 INFO  Log:26 - $595.00 
+2023-05-30 17:22:45 INFO  Log:26 - 23 Jun, 2023 
+2023-05-30 17:22:45 INFO  Log:26 - Ticket = 2 
+2023-05-30 17:22:45 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-30 17:22:45 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:22:45 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:22:45 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:22:45 INFO  Log:26 - $159.00 
+2023-05-30 17:22:45 INFO  Log:26 - 23 Jun, 2023 
+2023-05-30 17:22:45 INFO  Log:26 - Ticket = 3 
+2023-05-30 17:22:45 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-30 17:22:45 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:22:45 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:22:45 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:22:45 INFO  Log:26 - $595.00 
+2023-05-30 17:22:45 INFO  Log:26 - 23 Jun, 2023 
+2023-05-30 17:22:45 INFO  Log:26 - Ticket = 4 
+2023-05-30 17:22:45 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-30 17:22:45 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:22:45 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:22:45 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:22:45 INFO  Log:26 - $159.00 
+2023-05-30 17:22:45 INFO  Log:26 - 23 Jun, 2023 
+2023-05-30 17:22:45 INFO  Log:19 - =====================================getTheTicketDetails TEST END========================================= 
+2023-05-30 17:39:41 INFO  Log:15 - =====================================getTheTicketDetails TEST START========================================= 
+2023-05-30 17:39:41 INFO  Log:26 - No of tickets availabe = 4 
+2023-05-30 17:39:41 INFO  Log:26 - Ticket = 1 
+2023-05-30 17:39:41 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-30 17:39:41 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:39:42 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:39:42 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:39:42 INFO  Log:26 - $595.00 
+2023-05-30 17:39:42 INFO  Log:26 - 23 Jun, 2023 
+2023-05-30 17:39:42 INFO  Log:26 - Ticket = 2 
+2023-05-30 17:39:42 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-30 17:39:42 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:39:42 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:39:42 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:39:42 INFO  Log:26 - $159.00 
+2023-05-30 17:39:42 INFO  Log:26 - 23 Jun, 2023 
+2023-05-30 17:39:42 INFO  Log:26 - Ticket = 3 
+2023-05-30 17:39:42 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-05-30 17:39:42 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:39:42 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:39:42 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:39:42 INFO  Log:26 - $595.00 
+2023-05-30 17:39:42 INFO  Log:26 - 23 Jun, 2023 
+2023-05-30 17:39:42 INFO  Log:26 - Ticket = 4 
+2023-05-30 17:39:42 INFO  Log:26 - PFL VIP Club - Lower Level Seats + VIP Experience 
+2023-05-30 17:39:42 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-05-30 17:39:42 INFO  Log:26 - PFL 2023 Season 
+2023-05-30 17:39:42 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-05-30 17:39:42 INFO  Log:26 - $159.00 
+2023-05-30 17:39:42 INFO  Log:26 - 23 Jun, 2023 
+2023-05-30 17:39:42 INFO  Log:19 - =====================================getTheTicketDetails TEST END========================================= 
+2023-06-06 13:14:28 INFO  Log:15 - =====================================getDetailsOnTicketDetailPage TEST START========================================= 
+2023-06-06 13:18:36 INFO  Log:15 - =====================================getDetailsOnTicketDetailPage TEST START========================================= 
+2023-06-06 13:19:30 INFO  Log:15 - =====================================getDetailsOnTicketDetailPage TEST START========================================= 
+2023-06-06 13:21:29 INFO  Log:15 - =====================================getDetailsOnTicketDetailPage TEST START========================================= 
+2023-06-06 13:23:25 INFO  Log:15 - =====================================getDetailsOnTicketDetailPage TEST START========================================= 
+2023-06-06 13:26:06 INFO  Log:15 - =====================================getDetailsOnTicketDetailPage TEST START========================================= 
+2023-06-06 13:26:09 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-06-06 13:26:09 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-06-06 13:26:09 INFO  Log:26 - PFL 2023 Season 
+2023-06-06 13:26:09 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-06-06 13:26:09 INFO  Log:26 -  
+2023-06-06 13:26:09 INFO  Log:26 - $595.00 
+2023-06-06 13:26:09 INFO  Log:26 - MILLIONAIRE CLUB EXPERIENCE
+Join the PFL Millionaire's Club and experience the PFL's June 23 Welterweight & Lightweight bouts, featuring "Hurricane" Shane Burgos, 2022 PFL Lightweight World Champion Olivier Aubin-Mercier, and 2022 PFL Welterweight World Champ Sadibou Sy, from exclusive cageside seats, available only to NFT holders. Enter the venue through a dedicated VIP entrance alongside PFL talent and celebrities, and throughout the event, enjoy access to the Cageside Club, featuring light food and a 5-hour open bar*. You'll also receive an exclusive invitation to the PFL's Ceremonial Weigh-In on June 22, an event typically closed to the public, where you'll get to meet PFL's top contenders. Select recipients of Rare versions will also get the chance to hang with fighters in the Fighter Lounge, and two lucky Super Rare recipients will get the ultimate PFL experience: a private ring walk and photo opp inside the PFL SmartCage. *Must be 21 or older to enter the Cageside Club *Details for each perk will be communicated directly to buyers.
+*Must be 21 or older to enter the Cageside Club
+*Details for each perk will be communicated directly to buyers. 
+2023-06-06 13:26:09 INFO  Log:26 - EXCLUSIVE BENEFITS 
+2023-06-06 13:26:09 INFO  Log:26 - Reserved seat at Ceremonial Weigh-Ins
+Access to our invite-only Ceremonial Weigh-In, where you’ll see fighters and their teams up close and personal. Takes place on Thursday, June 22 at OTE Arena. 
+2023-06-06 13:26:09 INFO  Log:26 - Behind-the-scenes content delivered during fight week
+Get special behind-the-scenes content delivered straight to you 
+2023-06-06 13:26:09 INFO  Log:26 - PFL Credential and Lanyard
+Your own VIP credential to ID you as a Millionaire’s Club member 
+2023-06-06 13:26:09 INFO  Log:26 - Official PFL 6 Ticket Section: Exclusive Cageside
+Watch every fight from exclusive cageside seats, available only to NFT holders, at Atlanta’s OTE Arena! 
+2023-06-06 13:26:09 INFO  Log:26 - Day of Event - Jun 22 - OTE Arena 
+2023-06-06 13:26:09 INFO  Log:26 - Dedicated VIP Entrance
+Enter the venue alongside PFL talent and celebrities via the VIP entrance 
+2023-06-06 13:26:09 INFO  Log:26 - In-venue Hospitality via Cageside Club
+Access to the PFL’s Cageside Club, where you can enjoy an open bar (for those 21 and up) and light bites throughout the event. 
+2023-06-06 13:26:09 INFO  Log:26 - Perks for future ticket purchases to PFL post-season events
+After the event, receive discounts and/or presale offers for upcoming PFL 2023 playoff events. 
+2023-06-06 13:26:09 INFO  Log:26 - Fighter Meet-and-Greet
+Shake hands with some of the PFL’s top contenders at the Ceremonial Weigh-In on Thursday, June 22 at OTE Arena. 
+2023-06-06 13:26:09 INFO  Log:26 - Access to Fighter Lounge (Rare)
+Hang with PFL fighters in the athlete-only Fighter Lounge during the event 
+2023-06-06 13:26:09 INFO  Log:26 - SmartCage photo opp (Super Rare)
+Your exclusive opportunity to enter the PFL SmartCage following the event. Have your photo taken by the PFL’s official photographer and show everyone what you fight for! 
+2023-06-06 13:26:09 INFO  Log:26 - Join Box Text \nJoin us and show everyone what you fight for! 
+2023-06-06 13:26:09 INFO  Log:26 - Join Box Price \n$ 595.00 
+2023-06-06 13:26:09 INFO  Log:19 - =====================================getDetailsOnTicketDetailPage TEST END========================================= 
+2023-06-06 13:30:54 INFO  Log:15 - =====================================getDetailsOnTicketDetailPage TEST START========================================= 
+2023-06-06 13:31:16 INFO  Log:15 - =====================================getDetailsOnTicketDetailPage TEST START========================================= 
+2023-06-06 13:31:19 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-06-06 13:31:19 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-06-06 13:31:19 INFO  Log:26 - PFL 2023 Season 
+2023-06-06 13:31:19 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-06-06 13:31:19 INFO  Log:26 -  
+2023-06-06 13:31:19 INFO  Log:26 - $595.00 
+2023-06-06 13:31:19 INFO  Log:26 - MILLIONAIRE CLUB EXPERIENCE
+Join the PFL Millionaire's Club and experience the PFL's June 23 Welterweight & Lightweight bouts, featuring "Hurricane" Shane Burgos, 2022 PFL Lightweight World Champion Olivier Aubin-Mercier, and 2022 PFL Welterweight World Champ Sadibou Sy, from exclusive cageside seats, available only to NFT holders. Enter the venue through a dedicated VIP entrance alongside PFL talent and celebrities, and throughout the event, enjoy access to the Cageside Club, featuring light food and a 5-hour open bar*. You'll also receive an exclusive invitation to the PFL's Ceremonial Weigh-In on June 22, an event typically closed to the public, where you'll get to meet PFL's top contenders. Select recipients of Rare versions will also get the chance to hang with fighters in the Fighter Lounge, and two lucky Super Rare recipients will get the ultimate PFL experience: a private ring walk and photo opp inside the PFL SmartCage. *Must be 21 or older to enter the Cageside Club *Details for each perk will be communicated directly to buyers.
+*Must be 21 or older to enter the Cageside Club
+*Details for each perk will be communicated directly to buyers. 
+2023-06-06 13:31:19 INFO  Log:26 - EXCLUSIVE BENEFITS 
+2023-06-06 13:31:19 INFO  Log:26 - Reserved seat at Ceremonial Weigh-Ins
+Access to our invite-only Ceremonial Weigh-In, where you’ll see fighters and their teams up close and personal. Takes place on Thursday, June 22 at OTE Arena. 
+2023-06-06 13:31:19 INFO  Log:26 - Behind-the-scenes content delivered during fight week
+Get special behind-the-scenes content delivered straight to you 
+2023-06-06 13:31:19 INFO  Log:26 - PFL Credential and Lanyard
+Your own VIP credential to ID you as a Millionaire’s Club member 
+2023-06-06 13:31:19 INFO  Log:26 - Official PFL 6 Ticket Section: Exclusive Cageside
+Watch every fight from exclusive cageside seats, available only to NFT holders, at Atlanta’s OTE Arena! 
+2023-06-06 13:31:19 INFO  Log:26 - Day of Event - Jun 22 - OTE Arena 
+2023-06-06 13:31:19 INFO  Log:26 - Dedicated VIP Entrance
+Enter the venue alongside PFL talent and celebrities via the VIP entrance 
+2023-06-06 13:31:19 INFO  Log:26 - In-venue Hospitality via Cageside Club
+Access to the PFL’s Cageside Club, where you can enjoy an open bar (for those 21 and up) and light bites throughout the event. 
+2023-06-06 13:31:19 INFO  Log:26 - Perks for future ticket purchases to PFL post-season events
+After the event, receive discounts and/or presale offers for upcoming PFL 2023 playoff events. 
+2023-06-06 13:31:19 INFO  Log:26 - Fighter Meet-and-Greet
+Shake hands with some of the PFL’s top contenders at the Ceremonial Weigh-In on Thursday, June 22 at OTE Arena. 
+2023-06-06 13:31:20 INFO  Log:26 - Access to Fighter Lounge (Rare)
+Hang with PFL fighters in the athlete-only Fighter Lounge during the event 
+2023-06-06 13:31:20 INFO  Log:26 - SmartCage photo opp (Super Rare)
+Your exclusive opportunity to enter the PFL SmartCage following the event. Have your photo taken by the PFL’s official photographer and show everyone what you fight for! 
+2023-06-06 13:31:20 INFO  Log:26 - Join Box Text = 
+ Join us and show everyone what you fight for! 
+2023-06-06 13:31:20 INFO  Log:26 - Join Box Price \n$ 595.00 
+2023-06-06 13:31:20 INFO  Log:19 - =====================================getDetailsOnTicketDetailPage TEST END========================================= 
+2023-06-06 13:45:29 INFO  Log:15 - =====================================getDetailsOnTicketDetailPage TEST START========================================= 
+2023-06-06 13:46:16 INFO  Log:15 - =====================================getDetailsOnTicketDetailPage TEST START========================================= 
+2023-06-06 13:46:19 INFO  Log:26 - PFL Millionaire’s Club - Exclusive Cageside Seats + VIP Experience 
+2023-06-06 13:46:19 INFO  Log:26 - PFL Regular Season: Welterweights & Lightweights 
+2023-06-06 13:46:19 INFO  Log:26 - PFL 2023 Season 
+2023-06-06 13:46:19 INFO  Log:26 - Overtime Elite Arena, Atlanta, Georgia 
+2023-06-06 13:46:19 INFO  Log:26 -  
+2023-06-06 13:46:19 INFO  Log:26 - $595.00 
+2023-06-06 13:46:19 INFO  Log:26 - MILLIONAIRE CLUB EXPERIENCE = Join the PFL Millionaire's Club and experience the PFL's June 23 Welterweight & Lightweight bouts, featuring "Hurricane" Shane Burgos, 2022 PFL Lightweight World Champion Olivier Aubin-Mercier, and 2022 PFL Welterweight World Champ Sadibou Sy, from exclusive cageside seats, available only to NFT holders. Enter the venue through a dedicated VIP entrance alongside PFL talent and celebrities, and throughout the event, enjoy access to the Cageside Club, featuring light food and a 5-hour open bar*. You'll also receive an exclusive invitation to the PFL's Ceremonial Weigh-In on June 22, an event typically closed to the public, where you'll get to meet PFL's top contenders. Select recipients of Rare versions will also get the chance to hang with fighters in the Fighter Lounge, and two lucky Super Rare recipients will get the ultimate PFL experience: a private ring walk and photo opp inside the PFL SmartCage. *Must be 21 or older to enter the Cageside Club *Details for each perk will be communicated directly to buyers. = *Must be 21 or older to enter the Cageside Club = *Details for each perk will be communicated directly to buyers. 
+2023-06-06 13:46:19 INFO  Log:26 - EXCLUSIVE BENEFITS 
+2023-06-06 13:46:19 INFO  Log:26 - Reserved seat at Ceremonial Weigh-Ins = Access to our invite-only Ceremonial Weigh-In, where you’ll see fighters and their teams up close and personal. Takes place on Thursday, June 22 at OTE Arena. 
+2023-06-06 13:46:19 INFO  Log:26 - Behind-the-scenes content delivered during fight week = Get special behind-the-scenes content delivered straight to you 
+2023-06-06 13:46:19 INFO  Log:26 - PFL Credential and Lanyard = Your own VIP credential to ID you as a Millionaire’s Club member 
+2023-06-06 13:46:19 INFO  Log:26 - Official PFL 6 Ticket Section: Exclusive Cageside = Watch every fight from exclusive cageside seats, available only to NFT holders, at Atlanta’s OTE Arena! 
+2023-06-06 13:46:19 INFO  Log:26 - Day of Event - Jun 22 - OTE Arena 
+2023-06-06 13:46:19 INFO  Log:26 - Dedicated VIP Entrance = Enter the venue alongside PFL talent and celebrities via the VIP entrance 
+2023-06-06 13:46:19 INFO  Log:26 - In-venue Hospitality via Cageside Club = Access to the PFL’s Cageside Club, where you can enjoy an open bar (for those 21 and up) and light bites throughout the event. 
+2023-06-06 13:46:19 INFO  Log:26 - Perks for future ticket purchases to PFL post-season events = After the event, receive discounts and/or presale offers for upcoming PFL 2023 playoff events. 
+2023-06-06 13:46:19 INFO  Log:26 - Fighter Meet-and-Greet = Shake hands with some of the PFL’s top contenders at the Ceremonial Weigh-In on Thursday, June 22 at OTE Arena. 
+2023-06-06 13:46:19 INFO  Log:26 - Access to Fighter Lounge (Rare) = Hang with PFL fighters in the athlete-only Fighter Lounge during the event 
+2023-06-06 13:46:19 INFO  Log:26 - SmartCage photo opp (Super Rare) = Your exclusive opportunity to enter the PFL SmartCage following the event. Have your photo taken by the PFL’s official photographer and show everyone what you fight for! 
+2023-06-06 13:46:19 INFO  Log:26 - Join Box Text = Join us and show everyone what you fight for! 
+2023-06-06 13:46:19 INFO  Log:26 - Join Box Price = $ 595.00 
+2023-06-06 13:46:19 INFO  Log:19 - =====================================getDetailsOnTicketDetailPage TEST END========================================= 
+2023-06-06 14:55:03 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 14:58:45 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 15:00:06 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 15:02:45 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 15:07:29 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 15:09:02 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 15:10:49 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 15:13:28 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 15:17:54 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 15:26:51 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 15:35:54 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 15:37:00 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 15:38:55 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 15:46:00 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 15:46:08 INFO  Log:19 - =====================================buyMillionaireClubTicket TEST END========================================= 
+2023-06-06 15:48:21 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 15:48:29 INFO  Log:19 - =====================================buyMillionaireClubTicket TEST END========================================= 
+2023-06-06 15:49:46 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 15:49:54 INFO  Log:19 - =====================================buyMillionaireClubTicket TEST END========================================= 
+2023-06-06 15:52:00 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 15:52:08 INFO  Log:19 - =====================================buyMillionaireClubTicket TEST END========================================= 
+2023-06-06 15:53:27 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 15:53:36 INFO  Log:19 - =====================================buyMillionaireClubTicket TEST END========================================= 
+2023-06-06 15:56:29 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 15:56:38 INFO  Log:19 - =====================================buyMillionaireClubTicket TEST END========================================= 
+2023-06-06 16:07:04 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 16:07:12 INFO  Log:19 - =====================================buyMillionaireClubTicket TEST END========================================= 
+2023-06-06 16:11:19 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 16:11:27 INFO  Log:19 - =====================================buyMillionaireClubTicket TEST END========================================= 
+2023-06-06 16:13:42 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 16:13:50 INFO  Log:19 - =====================================buyMillionaireClubTicket TEST END========================================= 
+2023-06-06 16:18:31 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 16:18:38 INFO  Log:19 - =====================================buyMillionaireClubTicket TEST END========================================= 
+2023-06-06 17:25:44 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 17:26:14 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 17:27:27 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 17:31:07 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 17:34:11 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 17:35:49 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 17:47:28 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 17:50:54 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 17:56:26 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 17:56:35 INFO  Log:19 - =====================================buyMillionaireClubTicket TEST END========================================= 
+2023-06-06 17:57:57 INFO  Log:15 - =====================================buyMillionaireClubTicket TEST START========================================= 
+2023-06-06 17:58:05 INFO  Log:19 - =====================================buyMillionaireClubTicket TEST END========================================= 

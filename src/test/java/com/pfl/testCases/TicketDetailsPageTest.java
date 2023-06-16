@@ -23,9 +23,21 @@ public class TicketDetailsPageTest extends BaseClass{
 		Log.startTestCase("verifyDetailsOnTicketDetailPage");
 		homePage = new HomePage();
 		ticketDetailPage = new TicketDetailPage();
-		ticketDetailPage = homePage.clickBuyBtn();
+		ticketDetailPage = homePage.viewMillionaireClubTicket();
 		ticketDetailPage.verifyAllDetailsOnTicketDetailPage();
 		Log.endTestCase("verifyDetailsOnTicketDetailPage");
+		
+	}
+	
+	@Test
+	public void getDetailsOnTicketDetailPage() throws InterruptedException {
+		extent.createTest("Ticket details on Ticket Detail Page");
+		Log.startTestCase("getDetailsOnTicketDetailPage");
+		homePage = new HomePage();
+		ticketDetailPage = new TicketDetailPage();
+		ticketDetailPage = homePage.viewMillionaireClubTicket();
+		ticketDetailPage.getAllTicketDetailsOnTicketDetailPage();
+		Log.endTestCase("getDetailsOnTicketDetailPage");
 		
 	}
 

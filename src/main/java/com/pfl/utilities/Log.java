@@ -26,6 +26,12 @@ public class Log {
 				Log.info(message);
 
 				}
+		 
+		 public static void info(int message) {
+
+				Log.info(message);
+
+				}
 
 		 public static void warn(String message) {
 

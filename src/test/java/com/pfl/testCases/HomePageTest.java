@@ -31,32 +31,74 @@ public class HomePageTest extends BaseClass{
 		
 	}
 	
-	@Test
-	public void verifyTheDetailsOfTicketOnHomePage() {
-		extent.createTest("Ticket on Home Page details verification");
-		Log.startTestCase("verifyTheDetailsOfTicketOnHomePage");
-		homePage = new HomePage();
-		homePage.verifyTicketDetails();
-		Log.endTestCase("verifyTheDetailsOfTicketOnHomePage");
-	}
+	
 	
 	@Test
-	public void getTheTicketDetails() {
+	public void getTheTicketDetailsOnHomePage() {
 		extent.createTest("Ticket on Home Page details information");
 		Log.startTestCase("getTheTicketDetails");
 		homePage = new HomePage();
-		homePage.getTicketDetails();
+		homePage.getAllTicketsInfo();
 		Log.endTestCase("getTheTicketDetails");
 	}
 	
 	@Test
-	public void clickOnViewButtonOnTicket() throws InterruptedException {
-		extent.createTest("Click on buy button on Ticket on Home Page");
-		Log.startTestCase("ticketdetailpage");
+	public void verifyVIPTicketDetailsOnHomePage() {
+		extent.createTest("Ticket detail verification on Home Page");
+		Log.startTestCase("verifyVIPTicketDetailsOnHomePage");
 		homePage = new HomePage();
-		homePage.clickBuyBtn();	
-		Log.endTestCase("ticketdetailpage");
+		homePage.verifyPFL_VIPClubTicketDetails();
+		Log.endTestCase("verifyVIPTicketDetailsOnHomePage");
+	}
+	
+	@Test
+	public void verifyMillionaireTicketDetailsOnHomePage() {
+		extent.createTest("Ticket detail verification on Home Page");
+		Log.startTestCase("verifyMillionaireTicketDetailsOnHomePage");
+		homePage = new HomePage();
+		homePage.verifyPFL_MillionaireClubTicketDetails();
+		Log.endTestCase("verifyMillionaireTicketDetailsOnHomePage");
+	}
+	
+	@Test
+	public void clickOnVIPTicketViewButton() throws InterruptedException {
+		extent.createTest("Click on buy button on Ticket on Home Page");
+		Log.startTestCase("clickOnVIPTicketViewButton");
+		homePage = new HomePage();
+		homePage.viewVIPClubTicket();	
+		Log.endTestCase("clickOnVIPTicketViewButton");
 		
 	}
+	
+	@Test
+	public void clickOnMillionaireTicketViewButton() throws InterruptedException {
+		extent.createTest("Click on buy button on Ticket on Home Page");
+		Log.startTestCase("clickOnMillionaireTicketViewButton");
+		homePage = new HomePage();
+		homePage.viewMillionaireClubTicket();	
+		Log.endTestCase("clickOnMillionaireTicketViewButton");
+		
+	}
+	
+	@Test
+	public void checkSocialMediaLinks() throws InterruptedException {
+		extent.createTest("Check all the social media links available on the footer");
+		Log.startTestCase("checkSocialMediaLinks");
+		homePage = new HomePage();
+		homePage.socialMediaLinks();
+		Log.endTestCase("checkSocialMediaLinks");
+	}
+	
+	
+	@Test
+	public void checkOtherPageLinks() throws InterruptedException {
+		extent.createTest("Check all the other page links available on the footer");
+		Log.startTestCase("checkOtherPageLinks");
+		homePage = new HomePage();
+		homePage.otherPageLinks();
+		Log.endTestCase("checkOtherPageLinks");
+	}
+	
+	
 
 }

@@ -31,7 +31,8 @@ public class EndToEndTest extends BaseClass{
 		loginPage = homePage.clickOnLoginBtn();
 		homePage = loginPage.userLogin();
 		ticketDetailPage = new TicketDetailPage();
-		ticketDetailPage = homePage.clickBuyBtn();
+		//ticketDetailPage = homePage.clickBuyBtn();
+		ticketDetailPage = homePage.viewMillionaireClubTicket();
 		//ticketDetailPage.verifyAllDetailsOnTicketDetailPage();
 		otpPage = new OTPPage();
 		otpPage = ticketDetailPage.buyTicket();

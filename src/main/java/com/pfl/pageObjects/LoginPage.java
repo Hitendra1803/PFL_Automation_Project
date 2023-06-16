@@ -23,7 +23,7 @@ public class LoginPage extends BaseClass{
 
 
 		
-		@FindBy(id="User-Name")
+		@FindBy(id="UserName")
 		WebElement userEmail;
 		
 		

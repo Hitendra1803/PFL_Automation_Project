@@ -37,7 +37,7 @@ public class OTPPage extends BaseClass{
 //		@FindBy(id="OTP")
 //		WebElement buyOTPField;
 		
-		@FindBy(css="body > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)")
+		@FindBy(xpath="//div[@class='login-section']/div/div/input")
 		WebElement buyOTPField;
 		
 //		@FindBy(xpath = "(//div[@class='login-section'])[1]/div[1]/div/input")
@@ -82,9 +82,10 @@ public class OTPPage extends BaseClass{
 		}
 		
 		public BuyPricePage verifyBuyOTP() throws InterruptedException {
+			action.explicitWait(driver, buyOTPField, 10);
 			buyOTPField.click();
 			buyOTPField.sendKeys(prop.getProperty("signupOTP"));
-			action.click(driver, submitBUyOTP);
+			submitBUyOTP.click();
 			Thread.sleep(2000);
 			return new BuyPricePage();
 		}
